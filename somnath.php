@@ -35,7 +35,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
                 <h1>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         Temple Hub
                     </a>
                 </h1>
@@ -46,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li class="nav-item active  mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
+                            <a class="nav-link" href="index.php">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -63,7 +63,7 @@
                             </div>
                         </li>
                         <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="contact.html">About us</a>
+                            <a class="nav-link" href="contact.php">About us</a>
                         </li>
                     </ul>
                 </div>

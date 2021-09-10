@@ -30,47 +30,11 @@
 
 <body>
     <!-- inner banner -->
+    <?php
+        include('header1.php');
+        ?>
     <section class="inner-banner-w3ls d-flex flex-column justify-content-center align-items-center">
-        <!-- header -->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
-                <h1>
-                    <a class="navbar-brand" href="index.html">
-                        Temple Hub
-                    </a>
-                </h1>
-                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto text-center">
-                        <li class="nav-item active  mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link deropdown-toggl" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="somnath.html">Somnath</a>
-                                <a class="dropdown-item" href="#">Kedarnath</a>
-                                <a class="dropdown-item scroll" href="#">Rameshawaram</a>
-                                <a class="dropdown-item scroll" href="#">Mahakaleshwarm</a>
-
-                            </div>
-                        </li>
-                        <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="contact.html">About us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- //header -->
+        
     </section>
     <!-- //inner banner -->
     <!-- breadcrumbs -->
@@ -235,6 +199,8 @@
         </div>
     </section>
     <!-- //team -->
+
+    
    
     <!-- footer -->
     <footer class="footer py-md-5 pt-md-3 pb-sm-5">
@@ -392,6 +358,27 @@
         ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+
+
+    <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6"style="background-color: aliceblue;">
+            <table >
+                <tr>
+                    <th>USER ID
+                    </th>
+                    <th>USER NAME</th>
+                </tr>
+                <tr>
+                    
+                </tr>
+
+                <th></th>
+            </table>
+        </div>
+    </div>
 </body>
 
 </html>

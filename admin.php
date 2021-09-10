@@ -30,49 +30,24 @@
     <!-- //online-fonts -->
 </head>
 
+
+<?php
+include('conn.php');
+
+   
+    $view=mysqli_query($connect,"select id,user_name from registration_table ")
+    or die (mysqli_error($connect));
+
+
+?>
+
 <body>
+        <?php
+        include('header1.php');
+        ?>
     <!-- inner banner -->
     <section class="inner-banner-w3ls d-flex flex-column justify-content-center align-items-center">
-        <!-- header -->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
-                <h1>
-                    <a class="navbar-brand" href="index.html">
-                        Temple Hub
-                    </a>
-                </h1>
-                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto text-center">
-                        <li class="nav-item active  mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link deropdown-toggl" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="somnath.html">Somnath</a>
-                                <a class="dropdown-item" href="#">Kedarnath</a>
-                                <a class="dropdown-item scroll" href="#">Rameshawaram</a>
-                                <a class="dropdown-item scroll" href="#">Mahakaleshwarm</a>
-
-                            </div>
-                        </li>
-                        <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="contact.html">About us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- //header -->
+      
     </section>
     <!-- //inner banner -->
     <!-- breadcrumbs -->
@@ -90,6 +65,47 @@
 
         
    </pre>
+<div class="row">
+    <div class="col-md-3">
+
+    </div>
+
+   <div class="col-md-6">
+        <form action="">
+          <div style="color:white" class="table-responsive" >
+          <table style="border:10px;" class="table table-bordered table-hover table-striped">
+            <tr class="info">
+                
+              <th>SR.NO. </th>
+              <th>USER NAME</th>
+            </tr> 
+            <?php
+            $counter=0;
+            while($row = mysqli_fetch_array($view))
+            {
+                extract($row);
+            ?>
+                <tr>
+                    <td><?php echo ++$counter; ?></td>
+                    <!-- <td><?php echo $row['id'];?></td> -->
+                    <td><?php echo $row['user_name'];?></td> 
+                    
+                </tr>
+            <?php
+            }
+            ?>
+             
+            
+
+            
+          </table>
+        </div>
+        </form>
+        </div><!---column ends-->
+
+
+
+        </div><!--row-->
 
    
     
@@ -259,11 +275,8 @@
         ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    
 </body>
 
 </html>
 
-<?php
-
-
-?>

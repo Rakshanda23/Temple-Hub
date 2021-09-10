@@ -32,47 +32,13 @@
 
 <body>
     <!-- banner -->
+    <?php
+        include('header1.php');
+    ?>
     <section class="banner d-flex flex-column justify-content-center align-items-center">
         <!-- header -->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
-                <h1>
-                    <a class="navbar-brand" href="index.html">
-                        Temple Hub
-                    </a>
-                </h1>
-                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto text-center">
-                        <li class="nav-item active  mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link deropdown-toggl" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="somnath.html">Somnath</a>
-                                <a class="dropdown-item" href="#">Kedarnath</a>
-                                <a class="dropdown-item scroll" href="#">Rameshawaram</a>
-                                <a class="dropdown-item scroll" href="#">Mahakaleshwarm</a>
-
-                            </div>
-                        </li>
-                        <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="contact.html">About us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!--//header -->
+       
+    </section>  
         <!-- banner text -->
         <div class="container">
             <div class="banner_text_wthree_pvt text-center">
@@ -86,7 +52,7 @@
             </div>
         </div>
         <!-- //banner text -->
-    </section>
+    
     <!-- //banner -->
     <!-- about-->
     <section class="single_grid_w3_main align-w3" id="about">
@@ -102,7 +68,7 @@
                             <span class="wthree-line-1"></span>
                             सौराष्ट्रे सोमनाथं|</h5>
                     <div class="single_grid_w3 single_grid_w3">
-                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="somnath.html">view more
+                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="somnath.php">view more
                         </a> 
                     </div>
                 </div>
@@ -111,7 +77,7 @@
                             <span class="wthree-line-2"></span>
                             हिमालये तु केदारं घुश्मेशं च शिवालये॥</h5>
                     <div class="single_grid_w31 single_grid_w31">
-                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="about.html">view more
+                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="kedar.php">view more
                         </a> 
                     </div>
                 </div>
@@ -128,7 +94,7 @@
                             <span class="wthree-line-3"></span>
                             सेतुबन्धे तु रामेशं नागेशं दारुकावने॥</h5>
                     <div class="single_grid_w32 single_grid_w2">
-                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="about.html">view more
+                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="ram.php">view more
                         </a> 
                     </div>
                 </div>
@@ -137,7 +103,7 @@
                             <span class="wthree-line-4"></span>
                             उज्जयिन्यां महाकालमोङ्कारममलेश्वरम्॥</h5>
                     <div class="single_grid_w33 single_grid_w33">
-                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="about.html">view more
+                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="mahakal.php">view more
                         </a> 
                     </div>
                 </div>
@@ -589,7 +555,7 @@
                         </div>
                         <div class="sub-w3l">
                             <div class="sub-w3layouts_hub">
-                                <input type="checkbox" id="brand2" value="">
+                                <input type="checkbox" id="brand2" value="" required>
                                 <label for="brand2" class="mb-3 text-white">
                                     <span></span>I Accept to the Terms & Conditions</label>
                             </div>
@@ -684,6 +650,7 @@
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    
 </body>
 
 </html>
