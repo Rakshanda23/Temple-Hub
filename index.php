@@ -532,7 +532,7 @@
                                 required="">
                         </div>
                         <div class="right-w3l">
-                            <input type="submit" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
+                            <input type="submit" name="submit_button"style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
                         </div>
                         <div class="row sub-w3l my-3">
                             <div class="col sub-w3layouts_hub">
@@ -584,7 +584,7 @@
                         </div>
                         <div class="form-group">
                             <label for="password2" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Confirm Password</label>
-                            <input type="password" class="form-control" placeholder="Re-enter Password " name="Confirm Password" id="password2"
+                            <input type="password" class="form-control" placeholder="Re-enter Password " name="Confirm_Password" id="password2"
                                 required="">
                         </div>
                         <div class="sub-w3l">
@@ -595,7 +595,7 @@
                             </div>
                         </div>
                         <div class="right-w3l">
-                            <input type="submit" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
+                            <input type="submit" name="register_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
                         </div>
                     </form>
                 </div>
@@ -687,3 +687,35 @@
 </body>
 
 </html>
+<?php
+include('conn.php');
+if(isset($_POST['register_button']))
+{
+    extract($_POST);
+    //$lang=implode(',',$_POST['lang']);
+
+    echo $asd="insert into registration_table(user_name,email_id,pass)
+                 value('$Name','$Email','$Password')";
+    $add=mysqli_query($connect,$asd)or die (mysqli_error($connect));
+    if($asd)
+    {
+        echo "<script>;";
+        echo "window.alert('data inserted sucessfully!!');";
+        echo 'window.location.href="index.php";';
+        echo "</script>;";
+    }
+    else
+    {   echo "<script>;";
+        echo "window.alert('error occured in insertion!!');";
+        echo 'window.location.href="index.php";';
+        echo "</script>;";
+    }
+
+
+}
+
+
+
+
+
+?>
