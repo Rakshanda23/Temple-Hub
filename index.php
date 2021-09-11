@@ -44,8 +44,8 @@
             <div class="banner_text_wthree_pvt text-center">
                 <h3 class="home-banner-w3 ">Stay Connected To Your Mahadev  <span class="bell" aria-hidden="true"></span> </h3>
                 <div class="d-sm-flex justify-content-center">
-                    <button type="button" class="btn  w3ls-btn bg-theme" data-toggle="modal" aria-pressed="false"
-                        data-target="#exampleModal">login</button>
+                    <!-- <button type="button" class="btn  w3ls-btn bg-theme" data-toggle="modal" aria-pressed="false"
+                        data-target="#exampleModal">login</button> -->
                     <button type="button" class="btn  ml-2 w3ls-btn" data-toggle="modal" data-target="#exampleModal1">register</button>
 
                 </div>
@@ -292,8 +292,8 @@
             <div class="row p-sm-4 px-3 py-5">
                 <div class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">
                     <h2>
-                        <a class="navbar-brand" href="index.html">
-                            teens hub
+                        <a class="navbar-brand" href="index.php">
+                            Temple hub
                         </a>
                     </h2>
                     <p class="my-3 text-white">Donec consequat sam libero tempore, cum soluta nobis est eligendi optio
@@ -475,7 +475,7 @@
     </div>
     <!-- //blog modal3-->
     <!-- login  -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -518,7 +518,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- //login -->
     <!-- register -->
     <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"

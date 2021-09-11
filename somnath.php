@@ -56,10 +56,10 @@
                                 Dropdown
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="somnath.html">Somnath</a>
-                                <a class="dropdown-item" href="#">Kedarnath</a>
-                                <a class="dropdown-item scroll" href="#">Rameshawaram</a>
-                                <a class="dropdown-item scroll" href="#">Mahakaleshwarm</a>
+                                <a class="dropdown-item" href="somnath.php">Somnath</a>
+                                <a class="dropdown-item" href="kedar.php">Kedarnath</a>
+                                <a class="dropdown-item scroll" href="ram.php">Rameshawaram</a>
+                                <a class="dropdown-item scroll" href="mahakal.php">Mahakaleshwarm</a>
                             </div>
                         </li>
                         <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
@@ -97,6 +97,109 @@
         </div>
     </section>
     <!-- //about -->
+
+
+
+    <!-- login  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color:black;font-weight:700;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" id="exampleModalLabel">LOGIN</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post" class="p-3">
+                        <div class="form-group">
+                            <label for="recipient-name" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="Enter Username" name="Name" id="recipient-name"
+                                required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter Password" name="Password" id="password"
+                                required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" name="submit_button"style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
+                        </div>
+                        <div class="row sub-w3l my-3">
+                            <div class="col sub-w3layouts_hub">
+                                <input type="checkbox" id="brand1" value=""required>
+                                <label for="brand1" class="text-white" >
+                                    <span></span>Remember me?</label>
+                            </div>
+                            <div class="col forgot-w3l text-sm-right">
+                                <a href="#" class="text-white">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <p class="text-center dont-do text-white">Don't have an account?
+                            <a  data-toggle="modal" data-target="#exampleModal1" class="text-dark" data-dismiss="modal" > 
+                                 Register Now</a>
+
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //login -->
+
+
+    <!-- register -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color:black;font-weight:900;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" id="exampleModalLabel1">REGISTER</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post" class="p-3">
+                        <div class="form-group">
+                            <label for="recipient-name" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="Enter Name" name="Name" id="recipient-rname"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-email" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter Email" name="Email" id="recipient-email"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password1" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter Password " name="Password" id="password1"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password2" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Confirm Password</label>
+                            <input type="password" class="form-control" placeholder="Re-enter Password " name="Confirm_Password" id="password2"
+                                required="">
+                        </div>
+                        <div class="sub-w3l">
+                            <div class="sub-w3layouts_hub">
+                                <input type="checkbox" id="brand2" value="" required>
+                                <label for="brand2" class="mb-3 text-white">
+                                    <span></span>I Accept to the Terms & Conditions</label>
+                            </div>
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" name="register_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // register -->
+
+
 <!-- testimonials -->
 <!-- <div class="testimonials align-w3" id="testi"> -->
     <div style="margin-bottom: 0px;margin-top: 0px;" class="container">
@@ -164,6 +267,11 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2798902705!2d-74.25986790365911!3d40.697670067823786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1536917325197"
     allowfullscreen></iframe>
     
+
+                <div class="d-sm-flex justify-content-center">
+                    <button type="button" class="btn  w3ls-btn bg-theme" data-toggle="modal" aria-pressed="false"
+                        data-target="#exampleModal">login</button>
+                    </div>
 <!-- //breadcrumbs -->
 <!-- portfolio -->
 <section class="portfolio-wthree align-w3" id="portfolio">
