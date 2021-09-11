@@ -124,7 +124,7 @@
                                 required="">
                         </div>
                         <div class="right-w3l">
-                            <input type="submit" name="submit_button"style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
+                            <input type="submit" name="submit_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
                         </div>
                         <div class="row sub-w3l my-3">
                             <div class="col sub-w3layouts_hub">
@@ -191,6 +191,7 @@
                         </div>
                         <div class="right-w3l">
                             <input type="submit" name="register_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
+                            <!-- to do link it with login section id  -->
                         </div>
                     </form>
                 </div>
@@ -587,5 +588,78 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
 </body>
+
+<?php
+include('conn.php');
+if(isset($_POST['register_button']))
+{
+    extract($_POST);
+    //$lang=implode(',',$_POST['lang']);
+
+    echo $asd="insert into registration_table(user_name,email_id,pass)
+                 value('$Name','$Email','$Password')";
+    $add=mysqli_query($connect,$asd)or die (mysqli_error($connect));
+    if($asd)
+    {
+        echo "<script>;";
+        echo "window.alert('data inserted sucessfully!!');";
+        echo 'window.location.href="somnath.php";';
+        echo "</script>;";
+    }
+    else
+    {   echo "<script>;";
+        echo "window.alert('error occured in insertion!!');";
+        echo 'window.location.href="index.php";';
+        echo "</script>;";
+    }
+
+
+}
+?>
+
+<!--------- username pass check      ----------->
+<?php
+include('conn.php');
+if (isset($_POST['submit_button']))
+{
+    $log=0;
+    extract($_POST);
+    $username=mysqli_real_escape_string($connect,$_POST['Name']);
+
+    $password=mysqli_real_escape_string($connect,$_POST['Password']);
+    echo $check="select * from registration_table where  user_name='$username' and pass='$password'";
+
+    $log=mysqli_query($connect,$check)
+    or die(mysqli_error($connect));
+    if(mysqli_num_rows($log)>0)
+    {
+        $fetch=mysqli_fetch_array($log);
+
+        $_SESSION['username']=$fetch['user_name'];
+        $_SESSION['password']=$fetch['pass'];
+
+       
+        echo "<script>;";
+        echo "window.alert('login successfull!!!');";
+        echo 'window.location.href="somnath.php";';
+        echo "</script>;";
+    }
+    
+    else
+    {
+        echo"<script>;";
+        echo "window.alert('login failed!!');";
+        echo 'window.location.href="somnath.php";';
+        echo"</script>;";
+    }
+       
+        
+
+}
+
+
+?>
+
+
 
 </html>
