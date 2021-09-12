@@ -338,169 +338,39 @@
     </div>
 </div>
 </section>
-
-<!-- hotel end -->
-
- <!-- blog -->
- <section class="blog_w3ls align-w3" id="posts">
-        <div class="container">
-            <div class="wthree_pvt_title text-center">
-                <h4 class="w3pvt-title">blog posts
-                </h4>
-                <span class="sub-title">add your caption here</span>
-            </div>
-            <div class="row space-sec"> 
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-sm-0 mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">PLACES TO BE VISITED </span>
-
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button" class="text-theme1">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-sm-0 mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button" class="text-theme1">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-4 mx-auto blog-end">
-                    <div class="card">
-                        <div class="card-header p-0  position-relative">
-                            <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g3.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                    role="button" class="text-theme3">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal4">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-sm-0 mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button" class="text-theme1">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-            </div>
-        </div>
-    </section> 
-    <!-- //blog -->
 <!--services-->
 <div class="wthree_pvtits-services align-w3" id="services">
 <div class="container">
     <div class="wthree_pvt_title text-center">
-        <h4 class="w3pvt-title">CONTACT US
+        <h4 class="w3pvt-title">services
         </h4>
         <span class="sub-title">add your caption here</span>
     </div>
-   
     <div class="wthree_pvtits-services-row row">
-    <div class="col-lg-4 contact-w3">
-        <div class=" wthree_sgrid py-sm-5 py-4">
-        <span class="fa fa-envelope-open mr-2 my-3"></span>
-        <a href="mailto:example@email.com" class="d-block">info@example.com</a>
-        <a href="mailto:example@email.com" class="mt-1">info@example.com</a>
-        
-            <h4 class="my-3">EMAIL</h4>
+        <div class="col-lg-4 col-md-6 wthree_sgrid py-sm-5 py-4">
+            <span class="fa fa-ravelry p-sm-4 p-2"></span>
+            <h4 class="my-3">Lorem ipsum dolor </h4>
         </div>
-    </DIV>
-
-       
-    <div class="col-lg-4 contact-w3">
-        <div class=" wthree_sgrid py-sm-5 py-4">
-        <span class="fa fa-envelope-open mr-2 my-3"></span>
-        <a href="mailto:example@email.com" class="d-block">info@example.com</a>
-        <a href="mailto:example@email.com" class="mt-1">info@example.com</a>
-        
-            <h4 class="my-3">EMAIL</h4>
+        <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+            <span class="fa fa-wpexplorer p-sm-4 p-2"></span>
+            <h4 class="my-3"> sit amet sed diam nonumy </h4>
         </div>
-    </DIV>
-        
-
-
-    <div class="col-lg-4 contact-w3">
-        <div class=" wthree_sgrid py-sm-5 py-4">
-        <span class="fa fa-envelope-open mr-2 my-3"></span>
-        <a href="mailto:example@email.com" class="d-block">info@example.com</a>
-        <a href="mailto:example@email.com" class="mt-1">info@example.com</a>
-        
-            <h4 class="my-3">EMAIL</h4>
+        <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+            <span class="fa fa-diamond p-sm-4 p-2"></span>
+            <h4 class="my-3">eirmod tempor invidunt</h4>
         </div>
-    </DIV>
-        
+        <!-- <div class="col-lg-4 col-md-6 wthree_sgrid   py-sm-5 py-4">
+            <span class="fa fa-bell-o p-sm-4 p-2"></span>
+            <h4 class="my-3"> ut labore et dolore </h4>
+        </div>
+        <div class="col-lg-4 col-md-6  wthree_sgrid  py-sm-5 py-4">
+            <span class="fa fa fa-smile-o p-sm-4 p-2"></span>
+            <h4 class="my-3">magna aliquyam erat</h4>
+        </div>
+        <div class="col-lg-4 col-md-6  wthree_sgrid   py-sm-5 py-4">
+            <span class="fa fa-plus-square-o  p-sm-4 p-2"></span>
+            <h4 class="my-3">At vero eos et accusam</h4>
+        </div> -->
     </div>
 </div>
 </div>
@@ -720,10 +590,77 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
 </body>
-  
+<!-- 
+<?php
+include('conn.php');
+if(isset($_POST['register_button']))
+{
+    extract($_POST);
+    //$lang=implode(',',$_POST['lang']);
+
+    echo $asd="insert into registration_table(user_name,email_id,pass)
+                 value('$Name','$Email','$Password')";
+    $add=mysqli_query($connect,$asd)or die (mysqli_error($connect));
+    if($asd)
+    {
+        echo "<script>;";
+        echo "window.alert('data inserted sucessfully!!');";
+        echo 'window.location.href="somnath.php";';
+        echo "</script>;";
+    }
+    else
+    {   echo "<script>;";
+        echo "window.alert('error occured in insertion!!');";
+        echo 'window.location.href="index.php";';
+        echo "</script>;";
+    }
 
 
+}
+?> -->
 
+<!--------- username pass check      ----------->
+<?php
+include('conn.php');
+if (isset($_POST['submit_button']))
+{
+    $log=0;
+    extract($_POST);
+    $username=mysqli_real_escape_string($connect,$_POST['Name']);
+
+    $password=mysqli_real_escape_string($connect,$_POST['Password']);
+    echo $check="select * from registration_table where  user_name='$username' and pass='$password'";
+
+    $log=mysqli_query($connect,$check)
+    or die(mysqli_error($connect));
+    if(mysqli_num_rows($log)>0)
+    {
+        $fetch=mysqli_fetch_array($log);
+
+        $_SESSION['username']=$fetch['user_name'];
+        $_SESSION['password']=$fetch['pass'];
+
+       
+        echo "<script>;";
+        echo "window.alert('login successfull!!!');";
+        echo 'window.location.href="somnath.php";';
+        echo "</script>;";
+    }
+    
+    else
+    {
+        echo"<script>;";
+        echo "window.alert('login failed!!');";
+        echo 'window.location.href="somnath.php";';
+        echo"</script>;";
+    }
+       
+        
+
+}
+
+
+?>
 
 
 

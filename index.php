@@ -26,7 +26,9 @@
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <!-- //online-fonts -->
-   
+   <?php
+   include("formdetail.php");
+   ?>
 
 </head>
 
@@ -197,95 +199,7 @@
         <a href="gallery.html" class="btn btn-primary mt-4 wthree-link-bnr">view more</a>
     </section>
     <!-- //slide -->
-    <!-- blog -->
-    <!-- <section class="blog_w3ls align-w3" id="posts">
-        <div class="container">
-            <div class="wthree_pvt_title text-center">
-                <h4 class="w3pvt-title">blog posts
-                </h4>
-                <span class="sub-title">add your caption here</span>
-            </div>
-            <div class="row space-sec"> -->
-                <!-- blog grid -->
-                <!-- <div class="col-lg-4 col-md-6 mt-sm-0 mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button" class="text-theme1">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <!-- <div class="col-lg-4 col-md-6 mt-md-0  mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false" data-target="#exampleModal3"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g2.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal3" data-toggle="modal" aria-pressed="false" data-target="#exampleModal3"
-                                    role="button" class="text-theme2">magna porta au blandita.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal3">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <!-- <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 mx-auto blog-end">
-                    <div class="card">
-                        <div class="card-header p-0  position-relative">
-                            <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g3.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                    role="button" class="text-theme3">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal4">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- //blog grid -->
-            <!-- </div>
-        </div>
-    </section> -->
-    <!-- //blog -->
+   
     <!-- footer -->
     <footer class="footer py-md-5 pt-md-3 pb-sm-5">
         <div class="container-fluid">
@@ -474,101 +388,7 @@
         </div>
     </div>
     <!-- //blog modal3-->
-    <!-- login  -->
-    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" style="color:black;font-weight:700;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" id="exampleModalLabel">LOGIN</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="#" method="post" class="p-3">
-                        <div class="form-group">
-                            <label for="recipient-name" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Username</label>
-                            <input type="text" class="form-control" placeholder="Enter Username" name="Name" id="recipient-name"
-                                required="true">
-                        </div>
-                        <div class="form-group">
-                            <label for="password" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="Enter Password" name="Password" id="password"
-                                required="">
-                        </div>
-                        <div class="right-w3l">
-                            <input type="submit" name="submit_button"style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
-                        </div>
-                        <div class="row sub-w3l my-3">
-                            <div class="col sub-w3layouts_hub">
-                                <input type="checkbox" id="brand1" value="">
-                                <label for="brand1" class="text-white">
-                                    <span></span>Remember me?</label>
-                            </div>
-                            <div class="col forgot-w3l text-sm-right">
-                                <a href="#" class="text-white">Forgot Password?</a>
-                            </div>
-                        </div>
-                        <p class="text-center dont-do text-white">Don't have an account?
-                            <a href="#" data-toggle="modal" data-target="#exampleModal1" class="text-dark">
-                                Register Now</a>
-                        </p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- //login -->
-    <!-- register -->
-    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" style="color:black;font-weight:900;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" id="exampleModalLabel1">REGISTER</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="#" method="post" class="p-3">
-                        <div class="form-group">
-                            <label for="recipient-name" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Username</label>
-                            <input type="text" class="form-control" placeholder="Enter Name" name="Name" id="recipient-rname"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="recipient-email" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Email</label>
-                            <input type="email" class="form-control" placeholder="Enter Email" name="Email" id="recipient-email"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="password1" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="Enter Password " name="Password" id="password1"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="password2" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Confirm Password</label>
-                            <input type="password" class="form-control" placeholder="Re-enter Password " name="Confirm_Password" id="password2"
-                                required="">
-                        </div>
-                        <div class="sub-w3l">
-                            <div class="sub-w3layouts_hub">
-                                <input type="checkbox" id="brand2" value="" required>
-                                <label for="brand2" class="mb-3 text-white">
-                                    <span></span>I Accept to the Terms & Conditions</label>
-                            </div>
-                        </div>
-                        <div class="right-w3l">
-                            <input type="submit" name="register_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- // register -->
+    
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
@@ -654,35 +474,3 @@
 </body>
 
 </html>
-<?php
-include('conn.php');
-if(isset($_POST['register_button']))
-{
-    extract($_POST);
-    //$lang=implode(',',$_POST['lang']);
-
-    echo $asd="insert into registration_table(user_name,email_id,pass)
-                 value('$Name','$Email','$Password')";
-    $add=mysqli_query($connect,$asd)or die (mysqli_error($connect));
-    if($asd)
-    {
-        echo "<script>;";
-        echo "window.alert('data inserted sucessfully!!');";
-        echo 'window.location.href="index.php";';
-        echo "</script>;";
-    }
-    else
-    {   echo "<script>;";
-        echo "window.alert('error occured in insertion!!');";
-        echo 'window.location.href="index.php";';
-        echo "</script>;";
-    }
-
-
-}
-
-
-
-
-
-?>
