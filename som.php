@@ -101,7 +101,7 @@
 
 
     <!-- login  -->
-    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -145,15 +145,12 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- //login -->
-    <?php
-    include("formdetail.php");
-    ?>
 
 
     <!-- register -->
-        <!-- <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -194,12 +191,13 @@
                         </div>
                         <div class="right-w3l">
                             <input type="submit" name="register_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
+                            <!-- to do link it with login section id  -->
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- // register -->
 
 
@@ -338,155 +336,26 @@
     </div>
 </div>
 </section>
-
-<!-- hotel end -->
-
- <!-- blog -->
- <section class="blog_w3ls align-w3" id="posts">
-        <div class="container">
-            <div class="wthree_pvt_title text-center">
-                <h4 class="w3pvt-title">PLACES TO BE VISITED
-                </h4>
-                <span class="sub-title">add your caption here</span>
-            </div>
-            <div class="row space-sec"> 
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-sm-0 mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">PLACES TO BE VISITED </span>
-
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button" class="text-theme1">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-sm-0 mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button" class="text-theme1">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-4 mx-auto blog-end">
-                    <div class="card">
-                        <div class="card-header p-0  position-relative">
-                            <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g3.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                    role="button" class="text-theme3">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal4">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-
-                <!-- blog grid -->
-                <div class="col-lg-3 col-md-6 mt-sm-0 mt-5">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
-                                <span class="post-icon bg-theme1">blog post</span>
-
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button" class="text-theme1">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-            </div>
-        </div>
-    </section> 
-    <!-- //blog -->
 <!--services-->
 <div class="wthree_pvtits-services align-w3" id="services">
 <div class="container">
     <div class="wthree_pvt_title text-center">
-        <h4 class="w3pvt-title">CONTACT US
+        <h4 class="w3pvt-title">services
         </h4>
         <span class="sub-title">add your caption here</span>
     </div>
     <div class="wthree_pvtits-services-row row">
-        <div class="col-lg-4 col-md-6 wthree_sgrid  py-4">
-            <span style="color:white;font-size:80px" class="fa fa-envelope-open mr-2 my-3"></span>
-            <div class="d-flex flex-column">
-                        <a href="mailto:example@email.com" class="d-block">info@example.com</a>
-                        <a href="mailto:example@email.com" class="mt-1">info@example.com</a>
-                    </div>
-            <h4 class="my-3">EMAIL </h4>
+        <div class="col-lg-4 col-md-6 wthree_sgrid py-sm-5 py-4">
+            <span class="fa fa-ravelry p-sm-4 p-2"></span>
+            <h4 class="my-3">Lorem ipsum dolor </h4>
         </div>
-        <div class="col-lg-4 col-md-6 wthree_sgrid   py-4">
-            <span style="color:white;font-size:80px"class="fa fa-phone p-sm-4 p-2"></span>
-            <div class="d-flex flex-column">
-                    <p style="color:white">+456 123 7890</p>
-                    <p  style="color:white"class="mt-1">+456 123 7890</p>
-                    </div>
-            <h4 style="color:white"class="my-3"> PHONE </h4>
+        <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+            <span class="fa fa-wpexplorer p-sm-4 p-2"></span>
+            <h4 class="my-3"> sit amet sed diam nonumy </h4>
         </div>
-        <div class="col-lg-4 col-md-6 wthree_sgrid  py-4">
-            <span style="color:white;font-size:80px"class="fa fa-home p-sm-4 p-2"></span>
-            <address style="color:white">71 Pilgrim Avenue ,44 Shirley Ave. Goldfield Rd. Broome St, Newyork.</address>
-            <h4 style="color:white"class="my-3">ADDRESS</h4>
+        <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+            <span class="fa fa-diamond p-sm-4 p-2"></span>
+            <h4 class="my-3">eirmod tempor invidunt</h4>
         </div>
         <!-- <div class="col-lg-4 col-md-6 wthree_sgrid   py-sm-5 py-4">
             <span class="fa fa-bell-o p-sm-4 p-2"></span>
@@ -504,7 +373,41 @@
 </div>
 </div>
 <!-- //services-->
+<!-- contact -->
+<section class="contact-wthree align-w3" id="contact">
+    <div class="container">
+        <div class="wthree_pvt_title text-center">
+            <h4 class="w3pvt-title">contact us
+            </h4>
+            <span class="sub-title">this is a demo text you may write a brief text here to explain the title</span>
+        </div>
 
+        <div class="mx-auto text-center">
+            <div class="row">
+                <div class="col-lg-4 contact-w3">
+                    <span class="fa fa-envelope-open mr-2 my-3"></span>
+                    <div class="d-flex flex-column">
+                        <a href="mailto:example@email.com" class="d-block">info@example.com</a>
+                        <a href="mailto:example@email.com" class="mt-1">info@example.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 contact-w3 my-lg-0 my-4">
+                    <span class="fa fa-phone mr-2 my-3"></span>
+                    <div class="d-flex flex-column">
+                        <p>+456 123 7890</p>
+                        <p class="mt-1">+456 123 7890</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 contact-w3">
+                    <span class="fa fa-home mr-2 my-3"></span>
+                    <address>71 Pilgrim Avenue ,44 Shirley Ave. Goldfield Rd. Broome St, Newyork.</address>
+                </div>
+            </div>
+            <!-- //footer right -->
+        </div>
+    </div>
+</section>
+<!-- contact -->
     <!-- footer -->
     <footer class="footer py-md-5 pt-md-3 pb-sm-5">
         <div class="container-fluid">
@@ -685,10 +588,77 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
 </body>
-  
+
+<?php
+include('conn.php');
+if(isset($_POST['register_button']))
+{
+    extract($_POST);
+    //$lang=implode(',',$_POST['lang']);
+
+    echo $asd="insert into registration_table(user_name,email_id,pass)
+                 value('$Name','$Email','$Password')";
+    $add=mysqli_query($connect,$asd)or die (mysqli_error($connect));
+    if($asd)
+    {
+        echo "<script>;";
+        echo "window.alert('data inserted sucessfully!!');";
+        echo 'window.location.href="somnath.php";';
+        echo "</script>;";
+    }
+    else
+    {   echo "<script>;";
+        echo "window.alert('error occured in insertion!!');";
+        echo 'window.location.href="index.php";';
+        echo "</script>;";
+    }
 
 
+}
+?>
 
+<!--------- username pass check      ----------->
+<?php
+include('conn.php');
+if (isset($_POST['submit_button']))
+{
+    $log=0;
+    extract($_POST);
+    $username=mysqli_real_escape_string($connect,$_POST['Name']);
+
+    $password=mysqli_real_escape_string($connect,$_POST['Password']);
+    echo $check="select * from registration_table where  user_name='$username' and pass='$password'";
+
+    $log=mysqli_query($connect,$check)
+    or die(mysqli_error($connect));
+    if(mysqli_num_rows($log)>0)
+    {
+        $fetch=mysqli_fetch_array($log);
+
+        $_SESSION['username']=$fetch['user_name'];
+        $_SESSION['password']=$fetch['pass'];
+
+       
+        echo "<script>;";
+        echo "window.alert('login successfull!!!');";
+        echo 'window.location.href="somnath.php";';
+        echo "</script>;";
+    }
+    
+    else
+    {
+        echo"<script>;";
+        echo "window.alert('login failed!!');";
+        echo 'window.location.href="somnath.php";';
+        echo"</script>;";
+    }
+       
+        
+
+}
+
+
+?>
 
 
 
