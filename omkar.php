@@ -44,7 +44,7 @@ background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100
             margin-bottom: 0;
             border-radius: 20px;
             font-family:serif;
-            width: 36%;
+            width: 35%;
 
             
         }
@@ -236,6 +236,7 @@ font-weight: bolder;
                                 <a class="dropdown-item" href="rama.php"id="rakzzdd">Rameshawaram</a>
                                 <a class="dropdown-item" href="mahakal.php"id="rakzzdd">Mahakaleshwarm</a>
                                 <a class="dropdown-item " href="omkar.php"id="rakzzdd">Omkareshwar</a>
+
                             </div>
                         </li>
                         <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
@@ -371,7 +372,7 @@ font-weight: bolder;
 <!-- testimonials -->
 <!-- <div class="testimonials align-w3" id="testi"> -->
 <center><div class="jumbotron" id="j1">
-    <h1 class="h"> Mahakaleshwar Temple</h1>
+    <h1 class="h"> Omkareshwar Temple</h1>
     </div>
     </center>
 
@@ -389,7 +390,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/4.jpeg" alt="" style="height: 600px; width:1000px;">
+                                <img src="images/omkar/car/3.jpg" alt="" style="height: 600px; width:1000px;">
                             </div>
                         </div>
                     </div>
@@ -399,7 +400,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/2.jpg" alt="" style="height: 600px;width:1000px;">                                
+                                <img src= "images/omkar/car/1.jpg" alt=""style="height: 600px;width:1000px;">                                
                             </div>
                         </div>
                     </div>
@@ -408,7 +409,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/3.jpg" alt="" style="height: 600px;width:1000px;" >
+                                <img src="images/omkar/car/4.jpg" alt="" style="height: 600px;width:1000px;" >
                             </div>
                         </div>
                     </div>
@@ -417,7 +418,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/5.jpg" alt="no img oops " style="height: 600px;width:1000px;">
+                                <img src="images/omkar/car/5.jpg" alt="no img oops " style="height: 600px;width:1000px;">
                             </div>
                         </div>
                     </div>
@@ -426,7 +427,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/1.jpg" alt="" style="height: 600px; width:1000px;">
+                                <img src="images/omkar/car/2.jpg" alt="" style="height: 600px; width:1000px;">
                             </div>
                         </div>
                     </div>
@@ -437,7 +438,7 @@ font-weight: bolder;
 <!-- </div> -->
 <!-- //testimonials -->
 <br><br><br><br>
-<center><h4  id="time">Timing :- 5:00 am to 9:30 pm </h4><br></center><br><br>
+<center><h4  id="time">Timing :- 4:00 am to 11:00 pm </h4><br></center><br><br>
 <center>
 
 
@@ -473,7 +474,8 @@ font-weight: bolder;
 <h4 class="w3pvt-title" id="names">Live Darshan </h4><br>
        <hr style="height:3px; width:27%; border-width:0px; margin-top:0; background-color:rgba(242,159,3,1);">
 <br><br><br>        
-        <iframe width="1200px" height="600px" src="https://www.youtube.com/embed/BmGBSuPzs0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+  
+        <iframe width="1200" height="600" src="https://www.youtube.com/embed/SPTxAUReELY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
 </center>
 <br><br><br>
 <!-- //breadcrumbs -->
@@ -494,12 +496,12 @@ font-weight: bolder;
                         <h6 style="
                         font-size:x-large;color:midnightblue;font-weight: bolder;
                         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin-bottom: 0px;margin-top: 0px;" class="main-title-w3pvt text-center">
-                         <a href="https://abikahotels.com/" target="_blank"><span style="color:red;margin-left: 0px;margin-top: 0px;font-size: 30px;" class="fa fa-map-marker p-sm-4 p-2"></span></a>Abika Elite</h6>
+                         <a href="https://www.agoda.com/en-in/nimar-palace/hotel/all/omkareshwar-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1891440&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2021-09-26&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=-1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&tag=7cf4195f-01fb-ee51-3e38-968b3ba7437e&isCityHaveAsq=false&tspTypes=8&los=1&searchrequestid=4c933269-5bef-46c0-b7a3-1add9d4afc43" target="_blank"><span style="color:red;margin-left: 0px;margin-top: 0px;font-size: 30px;" class="fa fa-map-marker p-sm-4 p-2"></span></a>NIMAR PALACE</h6>
                         <img src="images/stars/3.5.jpg" style="height:40px ;width: 150px;align-content:left;"/>
                     </div>
                     <div class="gallery-grid1">
                        
-                            <img src="images/mahakal/abika_elite.jfif" style="height:190px;" alt=" " class="img-fluid" />
+                            <img src="images/omkar/h1.jpg" style="height:190px;" alt=" " class="img-fluid" />
                     </div>
                 </div>
             </li>
@@ -507,12 +509,12 @@ font-weight: bolder;
                 <div style="border-radius: 10px;" class="img-grid">
                     <div class="gallery-grid1">
                         
-                        <img src="images/mahakal/park_palace.jfif" style="width:300px; height:150px;" alt=" " class="img-fluid" />
+                        <img src="images/omkar/radhe_krishna.jpg" style="width:300px; height:150px;" alt=" " class="img-fluid" />
 
                     </div>
                     <div class="port-desc text-center">
                         <span class="line-wthree"></span>
-                        <h6 style="font-size:x-large;color:midnightblue;font-weight: bolder;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin-bottom: 0px;" class="main-title-w3pvt text-center"><a href="http://hotelparkpalace.in/" target="_blank"><span style="color:red;margin-left: 0px;margin-top: 0px;font-size: 30px;" class="fa fa-map-marker p-sm-4 p-2"></span></a><P>PARK PALACE</P></h6>
+                        <h6 style="font-size:x-large;color:midnightblue;font-weight: bolder;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin-bottom: 0px;" class="main-title-w3pvt text-center"><a href="http://www.radhekrishnaresort.com/" target="_blank"><span style="color:red;margin-left: 0px;margin-top: 0px;font-size: 30px;" class="fa fa-map-marker p-sm-4 p-2"></span></a><p>RADHE KRISHNA</P></h6>
                         <img src="images/stars/4.5.jpg" style="height:40px ;width: 160px;align-content:left;">
                         
                     </div>
@@ -523,14 +525,14 @@ font-weight: bolder;
                     <div class="port-desc text-center">
                         <span class="line-wthree"></span>
                         <h6 style="font-size:x-large;color:midnightblue;font-weight:bolder;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin-bottom: 0px;" class="main-title-w3pvt text-center">
-                            <a href="https://www.makemytrip.com/hotels/hotel-listing/?topHtlId=20160624164517628&checkin=date_2&checkout=date_3&locusId=CTXUJ&locusType=city&city=CTXUJ&country=IN&searchText=Ujjain&roomStayQualifier=2e0e&reference=hotel&type=city&cmp=SEM|D|DH|G|Hname|Hname_2S_NewList-Sep18_Exact|20160624164517628|RSA|LOCUS|386556308397&s_kwcid=AL!1631!3!386556308397!e!!g!!hotel%20keshar%20laxmi%20ujjain&ef_id=Cj0KCQjw1ouKBhC5ARIsAHXNMI9VKVrh0Sem3FpM497_UeqBfR9mQWJ3XtxsjY42z8jrR9nCTtgJnFAaAhiWEALw_wcB:G:s" target="_blank">
+                            <a href="http://www.radhekrishnaresort.com/" target="_blank">
                             <span style="color:red;margin-left: 0px;margin-top: 0px;font-size: 30px;" class="fa fa-map-marker p-sm-4 p-2"></span></a>Keshar Laxmi</h6>                        
                         
                         <img src="images/stars/low.jpg" style="height:40px ;width: 150px;align-content:left;">
                     </div>
                     <div class="gallery-grid1">
                         
-                         <img src="images/mahakal/keshar_laxmi.jpg" style="height:200px;" alt=" " class="img-fluid"/></a>
+                         <img src="images/omkar/Bliss_home.jfif" style="height:185px; width:380px;" alt=" " class="img-fluid"/></a>
 
                     </div>
                 </div>
@@ -556,8 +558,8 @@ font-weight: bolder;
                         <div class="card-header p-0 position-relative">
                             <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
                                 role="button">
-                                <img class="card-img-bottom" src="images/mahakal/p1.png" alt="Card image cap" height="200px">
-                                <span class="post-icon bg-theme1" id="blog1">Birla Mandir </span>
+                                <img class="card-img-bottom" src="images/omkar/p1.jpg" alt="Card image cap" height="200px">
+                                <span class="post-icon bg-theme1" id="blog1">Kedareshwar Temple</span>
 
                             </a>
                         </div>
@@ -566,10 +568,10 @@ font-weight: bolder;
                                 <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
                                     role="button" class="text-theme1"></a>
                             </h5>
-                            <p > Located in the Industrial Area in Nagda near Ujjain, Birla Mandir is a revered Hindu temple dedicated to Lord Vishnu</p>
+                            <p > Built in the 11th century, the Kedareshwar temple is one of the most eminent shrines in Madhya Pradesh.</p>
                             <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
                                 aria-pressed="false" data-target="#exampleModal2">
-                                <a href="https://www.holidify.com/places/ujjain/birla-mandir-sightseeing-1257746.html" target="_blank">Read more</a>
+                                <a href="https://www.holidify.com/places/omkareshwar/kedareshwar-temple-sightseeing-3077.html" target="_blank">Read more</a>
                             </button>
                         </div>
                     </div>
@@ -581,8 +583,8 @@ font-weight: bolder;
                         <div class="card-header p-0 position-relative">
                             <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
                                 role="button">
-                                <img class="card-img-bottom" src="images/mahakal/p2.jpg" alt="Card image cap" height="200px">
-                                <span class="post-icon bg-theme1"id="blog1">Pir Matsyendranath</span>
+                                <img class="card-img-bottom" src="images/omkar/p2.jpg" alt="Card image cap" height="200px">
+                                <span class="post-icon bg-theme1"id="blog1">Bhagavatpaada Cave</span>
 
                             </a>
                         </div>
@@ -591,10 +593,10 @@ font-weight: bolder;
                                 <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
                                     role="button" class="text-theme1"></a>
                             </h5>
-                            <p >  It was constructed in remembrance of the greatest leaders of the Natha sect of Saivism-Matsyendranath. </p>
+                            <p >  Considered very religious by the Hindus, this cave has a main hall and a small sanctum with a Shivalingam. </p>
                             <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
                                 aria-pressed="false" data-target="#exampleModal2">
-                                <a href="https://www.holidify.com/places/ujjain/pir-matsyendranath-sightseeing-6096.html" target="_blank">Read more</a>
+                                <a href="https://www.holidify.com/places/omkareshwar/sri-govinda-bhagavatpaada-cave-sightseeing-3081.html" target="_blank">Read more</a>
                             </button>
                         </div>
                     </div>
@@ -606,8 +608,8 @@ font-weight: bolder;
                         <div class="card-header p-0  position-relative">
                             <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
                                 role="button">
-                                <img class="card-img-bottom" src="images/mahakal/p3.jpg" alt="Card image cap" height="200px">
-                                <span class="post-icon bg-theme1"id="blog1">Gomti Kund</span>
+                                <img class="card-img-bottom" src="images/omkar/p3.jpg" alt="Card image cap" height="200px">
+                                <span class="post-icon bg-theme1"id="blog1">Siddhanath Temple</span>
                             </a>
                         </div>
                         <div class="card-body" id="blog2">
@@ -615,10 +617,10 @@ font-weight: bolder;
                                 <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
                                     role="button" class="text-theme3"></a>
                             </h5>
-                            <p > Lord Krishna summoned all the holy waters and created the Gomti Kund so that his guru wouldn't have to travel to them.</p>
+                            <p > This 13th century temple is also an important temple here and is architecturally very interesting and uniquely.</p>
                             <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
                                 aria-pressed="false" data-target="#exampleModal4">
-                                <a href="https://www.holidify.com/places/ujjain/gomti-kund-sightseeing-122266.html" target="_blank">Read more</a>
+                                <a href="https://www.holidify.com/places/omkareshwar/siddhanath-temple-sightseeing-3080.html" target="_blank">Read more</a>
                             </button>
                         </div>
                     </div>
@@ -631,8 +633,8 @@ font-weight: bolder;
                         <div class="card-header p-0 position-relative">
                             <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
                                 role="button">
-                                <img class="card-img-bottom" src="images/mahakal/p4.jpg" alt="Card image cap" height="200px">
-                                <span class="post-icon bg-theme1"id="blog1">ISKCON Temple</span>
+                                <img class="card-img-bottom" src="images/omkar/p4.jpg" alt="Card image cap" height="200px">
+                                <span class="post-icon bg-theme1"id="blog1">Peshawar Ghat</span>
 
                             </a>
                         </div>
@@ -641,10 +643,10 @@ font-weight: bolder;
                                 <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
                                     role="button" class="text-theme1"></a>
                             </h5>
-                            <p >The beauty of the majestic (Sri Krishna) white marble building of ISKCON in Ujjain is truly a sight for sore eyes.</p>
+                            <p >Peshawar Ghat peaks bifurcated by gorges, transparent flow of streams, and majestic mountain ranges.</p>
                             <button type="button" class="btn blog-btn wthree-bnr-btn mt-3 w3_pvt-link-bnr" data-toggle="modal"
                                 aria-pressed="false" data-target="#exampleModal2">
-                               <a href="https://www.holidify.com/places/ujjain/iskcon-ujjain-temple-sightseeing-122260.html" target="_blank"> Read more</a>
+                               <a href="https://www.thrillophilia.com/attractions/peshawar-ghat" target="_blank"> Read more</a>
                             </button>
                         </div>
                     </div>
@@ -705,9 +707,9 @@ font-weight: bolder;
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
 <br><br><br>
-    <?php
+<?php
     include("footer.php");
-    ?>
+    ?>  
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->

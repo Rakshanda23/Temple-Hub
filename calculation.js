@@ -7,7 +7,7 @@
  {
     
     if (document.getElementById("havan1").checked == true ){
-        a=1000
+        a=501
         
     } 
     else
@@ -17,7 +17,7 @@
         
     } 
     if (document.getElementById("havan2").checked == true){
-        b=2000
+        b=2100
       
     } 
     else
@@ -28,7 +28,7 @@
     } 
     
     if (document.getElementById("havan3").checked == true ){
-        c=3000
+        c=1100
     } 
     else
     if
@@ -37,7 +37,7 @@
         
     } 
     if (document.getElementById("havan4").checked == true){
-        d=4000
+        d=11000
      
     }
     else
@@ -48,7 +48,7 @@
     } 
     
     if (document.getElementById("havan5").checked == true){
-        e=5000
+        e=510000
         
      
     }
@@ -60,7 +60,7 @@
     } 
     
     if (document.getElementById("havan6").checked == true ){
-        f=6000
+        f=100000
      
     }
     else
@@ -71,37 +71,37 @@
     } 
 
     if (document.getElementById("extra1").checked == true ){
-        g=10
+        g=51
      
     }
     else 
     g=0;
     if (document.getElementById("extra2").checked == true ){
-        h=20
+        h=101
      
     }
     else 
     h=0;
     if (document.getElementById("extra3").checked == true){
-        i=30
+        i=301
      
     }
     else 
     i=0;
     if (document.getElementById("extra4").checked == true ){
-        j=40
+        j=5001
         
     }
     else 
     j=0;
     if (document.getElementById("extra5").checked == true ){
-        k=50
+        k=1501
      
     }
     else 
     k=0;
     if (document.getElementById("extra6").checked == true ){
-        l=60
+        l=7001
      
     }
     else

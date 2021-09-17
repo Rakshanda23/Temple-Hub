@@ -28,6 +28,10 @@
     <!-- //online-fonts -->
 
 
+    <?php
+    include("formdetail.php");
+    ?>
+
     <style type="text/css">
  #j1{
             
@@ -230,6 +234,8 @@ font-weight: bolder;
                                 <a class="dropdown-item" href="kedar.php"id="rakzzdd">Kedarnath</a>
                                 <a class="dropdown-item" href="rama.php"id="rakzzdd">Rameshawaram</a>
                                 <a class="dropdown-item" href="mahakal.php"id="rakzzdd">Mahakaleshwarm</a>
+                                <a class="dropdown-item " href="omkar.php"id="rakzzdd">Omkareshwar</a>
+
                             </div>
                         </li>
                         <li class="nav-item mr-lg-3 mt-lg-0 mt-3">

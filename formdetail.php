@@ -2,6 +2,7 @@
 </script>
 <?php
   include('conn.php');
+  
   ?>  
 
 
@@ -88,66 +89,66 @@
                         
                             
                             
-                            <label for="havan" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Havan</label>
+                            <label for="havan" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Abhishek</label>
                             <div class=row>
                             
                             
                                 <div class=col-lg-6>
                                     
-                                    <input type="checkbox" id="havan1" value="abc" name="hav[]" onclick="amt_cal()">
+                                    <input type="checkbox" id="havan1" value="Mahimna" name="hav[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>mahamrutunjay jap</label><br>
-                                    <input type="checkbox" id="havan2" value=" def" name="hav[]" onclick="amt_cal()">
+                                    <span></span>Mahimna-₹501</label><br>
+                                    <input type="checkbox" id="havan2" value="Dugdhabhishek" name="hav[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>havan2</label><br>
-                                    <input type="checkbox" id="havan3" value="fbdf" name="hav[]" onclick="amt_cal()">
+                                    <span></span>Dugdhabhishek-₹2100</label><br>
+                                    <input type="checkbox" id="havan3" value="Rudra" name="hav[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>havan3</label> <br>
+                                    <span></span>Rudra-₹1100</label> <br>
                                   
                                 </div>
                                 <div class=col-lg-6> 
 
-                                <input type="checkbox" id="havan4" value="ghi" name="hav[]" onclick="amt_cal()">
+                                <input type="checkbox" id="havan4" value="Laghurudra" name="hav[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>mahamrutunjay jap</label><br>
-                                    <input type="checkbox" id="havan5" value="jkl" name="hav[]" onclick="amt_cal()">
+                                    <span></span>Laghurudra-₹11000</label><br>
+                                    <input type="checkbox" id="havan5" value="Maharudra" name="hav[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>havan2</label><br>
-                                    <input type="checkbox" id="havan6" value="fg" name="hav[]" onclick="amt_cal()">
+                                    <span></span>Maharudra-₹51000</label><br>
+                                    <input type="checkbox" id="havan6" value="Aatirudra" name="hav[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>havan3</label> <br>
+                                    <span></span>Aatirudra-₹100000</label> <br>
                                 </div> 
                             </div> 
 
                             <!-- havan -->
-                            <label for="additional" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">EXTRA</label>
+                            <label for="additional" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label"></label>
                             <div class=row>
                             
                             
                                 <div class=col-lg-6>
                                     
-                                    <input type="checkbox" id="extra1" value="mno" name="lang[]" onclick="amt_cal()">
+                                    <input type="checkbox" id="extra1" value="108 Akhanda Akshada" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>flowers</label><br>
-                                    <input type="checkbox" id="extra2" value="pqr" name="lang[]" onclick="amt_cal()">
+                                    <span></span>108 Akshada-₹51</label><br>
+                                    <input type="checkbox" id="extra2" value="11 Belfal" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>essence stick</label><br>
-                                    <input type="checkbox" id="extra3" value="hg" name="lang[]" onclick="amt_cal()">
+                                    <span></span>11 Belfal-₹101</label><br>
+                                    <input type="checkbox" id="extra3" value="Sampurnpuja-₹301" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>essence stick</label> <br>
+                                    <span></span>Sampurnpuja-₹301</label> <br>
                                   
                                 </div>
                                 <div class=col-lg-6> 
 
-                                <input type="checkbox" id="extra4" value="stu" name="lang[]" onclick="amt_cal()">
+                                <input type="checkbox" id="extra4" value="108 Belpatra" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>essence stick</label><br>
-                                    <input type="checkbox" id="extra5" value="vwx" name="lang[]" onclick="amt_cal()">
+                                    <span></span>108 Belpatra-₹501</label><br>
+                                    <input type="checkbox" id="extra5" value="1008 Belpatra" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>essence stick</label><br>
-                                    <input type="checkbox" id="extra6" value="sg" name="lang[]" onclick="amt_cal()">
+                                    <span></span>1008 Belpatra-₹1501</label><br>
+                                    <input type="checkbox" id="extra6" value="1.25lakh Belpatra" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
-                                    <span></span>essence stick</label> <br>
+                                    <span></span>1.25M Belpatra-₹7001 </label> <br>
                                 </div> 
                             </div> 
                             <!-- extra -->
@@ -179,7 +180,7 @@
                                 <!-- total amt  -->
 
                         <div class="right-w3l">
-                            <input type="submit" name="submit_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
+                            <input type="submit" name="submit_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="PAY NOW">
                         </div>
                         <div class="row sub-w3l my-3">
                             <div class="col sub-w3layouts_hub">
@@ -219,7 +220,7 @@ if(isset($_POST['register_button']))
     {
         echo "<script>;";
         echo "window.alert('data inserted sucessfully!!');";
-        echo 'window.location.href="somnath.php";';
+        echo 'window.location.href="index.php";';
         echo "</script>;";
     }
     else
@@ -277,13 +278,11 @@ include('conn.php');
          if($ins)
          {
              echo "<script>;";
-     
-             echo 'window.location.href="contact.php";';
+             echo "window.alert('you are ready to pay!!');";
+             echo 'window.location.href="pay.php";';
              echo "</script>;";
          }
-         
-
-
+        
      }
      else
      if(mysqli_num_rows($log2)>0)
@@ -307,38 +306,3 @@ include('conn.php');
 
 
 ?>
-
-
-
- <?php
-// include('conn.php');
-// if(isset($_POST['submit_button']))
-// {
-//     extract($_POST);
-//     $h=implode(',',$_POST['hav']);
-//     $e=implode(',',$_POST['lang']);
-    
-
-//     echo $ins="insert into donation_table(user_name,password,havan,samagri,charity,date,price)
-//                  value('$Name','$Password','$h','$e','$Charity','$Date','$Price')";
-                
-//     $add=mysqli_query($connect,$ins)or die (mysqli_error($connect));
-
-//     if($ins)
-//     {
-//         echo "<script>;";
-//         echo "window.alert('data inserted sucessfully!!');";
-
-//         echo 'window.location.href="somnath.php";';
-//         echo "</script>;";
-//     }
-//     else
-//     {   echo "<script>;";
-//         echo "window.alert('error occured in insertion!!');";
-//         echo 'window.location.href="index.php";';
-//         echo "</script>;";
-//     }
-
-
-// }
-?>  
