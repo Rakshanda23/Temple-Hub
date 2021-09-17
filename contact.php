@@ -26,15 +26,112 @@
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <!-- //online-fonts -->
+
+    <style type="text/css">
+    #rakzz{
+            color: rgba(252,189,186,1);
+            background-color:black;
+            border:black;
+        }
+    #rakzz:hover{
+            background-color:rgba(121,173,233,1);
+            color:black;
+        }
+
+        #rakzzdd{
+            color:black;
+            background-color:rgba(121,173,233,1);
+        }
+        #rakzzdd.active{
+            color:black;
+            background-color:rgba(252,189,186); 
+        }
+        #rakzzdd:hover{
+            background-color:rgba(252,189,186); 
+        }
+
+        #shh{
+            background-color:rgba(252,189,186,1); 
+            color:black;
+            margin-bottom:20px;
+            padding-bottom:5px;
+        }
+        #shh:hover{
+            background-color:rgba(121,173,233,1);
+            font-size:large;
+        }
+        #names{
+            font-size: 50px ;
+            font-family: Arial Narrow Bold;
+            color:rgba(252,189,186,1);
+            text-shadow: 0 0 9px rgba(252,189,186,1), 0 0 7px rgba(252,189,186,1); ;
+            
+        }
+        #we{
+            font-size:30px;
+            color:pink;
+            font-family:Times;
+        }
+        
+       
+    </style>
+
 </head>
 
 <body>
     <!-- inner banner -->
-    <?php
-        include('header1.php');
-        ?>
+    
+    <!-- inner banner -->
     <section class="inner-banner-w3ls d-flex flex-column justify-content-center align-items-center">
-        
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
+                <h1>
+                    <a class="navbar-brand" href="index.php" style="  background: -webkit-radial-gradient(33% 100% circle, red 4%, orange 30%, red 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 35% 100%, rgba(252,189,186,1) 20%, rgba(121,173,233,1) 30%, rgba(252,189,186,1) 62%, rgba(252,189,186,1) 70%, rgba(121,173,233,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">
+                        Temple Hub
+                    </a>
+                </h1>
+                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto text-center">
+                        <li>
+                            <div class="d-sm-flex justify-content-center" >
+                                <button type="button" class="btn  w3ls-btn bg-theme" data-toggle="modal" aria-pressed="false"
+                                data-target="#exampleModal" id="shh">HAVAN</button>
+                            </div>
+
+                        </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <li class="nav-item   mr-lg-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="index.php" id="rakzz">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3">
+                            <a id="rakzz" class="btn btn-secondary dropdown-toggle customButton" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="rakzzdd">
+                                <a class="dropdown-item" href="somnath.php"id="rakzzdd">Somnath</a>
+                                <a class="dropdown-item" href="kedar.php"id="rakzzdd">Kedarnath</a>
+                                <a class="dropdown-item scroll" href="ram.php"id="rakzzdd">Rameshawaram</a>
+                                <a class="dropdown-item scroll" href="mahakal.php"id="rakzzdd">Mahakaleshwarm</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="contact.php" id="rakzz">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- //header -->
     </section>
     <!-- //inner banner -->
     <!-- breadcrumbs -->
@@ -47,39 +144,162 @@
         </ol>
     </nav> -->
     <!-- //breadcrumbs --> 
+        <br><br><br>   
+        
+       
+    <!-- team -->
+    <section class="w3layouts_hubits-services align-w3" id="team">
+        <div class="container">
+            <div class="wthree_pvt_title text-center">
+            <h4 class="w3pvt-title" id="names"><center>Our Team</center></h4><br>
+                            <hr style="height:3px; width:40%; border-width:0px; margin-top:0; background-color:rgb(97, 216, 252);">
+                     
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 team-grids">
+                    <div class="team-effect">
+                        <img src="images/shreya.jpeg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- team text -->
+                    <center><div class="team_wthree mt-3">
+                            <h4 id="we">Shreya Agrawal</h4>                        
+                        <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
+                            <li>
+                                <a href="https://www.linkedin.com/in/shreyaagrawal03" target="_blank">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/919403233992" target="_blank">
+                                    <span class="fa fa-whatsapp"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.instagram.com/garg_shreya_63" target="_blank">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100071514885043" target="_blank">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Shrey63" target="_blank">
+                                    <span class="fa fa-github"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div></center>
+                    <!-- //team text -->
+                </div>
+                <div class="col-lg-4 col-sm-6 team-grids">
+                    <div class="team-effect">
+                        <img src="images/rakzz.jpeg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- team text -->
+                    <center><div class="team_wthree mt-3">
+                        <h4 id="we">Rakshanda Giri</h4>                        
+                        <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
+                            <li>
+                                <a href="https://www.linkedin.com/in/rakshanda23" target="_blank">
+                                    <span class="fa fa-linkedin" ></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/919156445577" target="_blank">
+                                    <span class="fa fa-whatsapp"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.instagram.com/rakshanda_giri_" target="_blank">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100071690275762" target="_blank">
+                                    <span class="fa fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Rakshanda23" target="_blank">
+                                    <span class="fa fa-github"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div></center>
+                    <!-- //team text -->
+                </div>
+                <div class="col-lg-4 col-sm-6 team-grids ">
+                    <div class="team-effect">
+                        <img src="images/shrutika.jpeg" alt="img" class="img-fluid">
+                    </div>
+                    <!-- team text -->
+                    <center><div class="team_wthree mt-3">
+                            <h4 id="we">Shrutika Mahajan</h4>                        
+                        <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
+                            <li>
+                                <a href="https://www.linkedin.com/in/shrutika-mahajan-433671216/" target="_blank">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/919119456889" target="_blank">
+                                    <span class="fa fa-whatsapp"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.instagram.com/shrutika_85" target="_blank">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100071556637549" target="_blank">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Shrutika85" target="_blank">
+                                    <span class="fa fa-github"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div></center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //team -->
 
-            <div class="row mt-4">
-                <div class="col-lg-8 mx-auto">
-                    <h5 class="cont-form">send us a note</h5>
-                    <div class="contact-form-wthreelayouts">
+
+
+
+
+     
+        <!-- FORM  -->
+            
+        <div class="row mt-4">
+                <div class="col-lg-6 mx-auto">
+                <h4 class="w3pvt-title" id="names"><center>SEND US A NOTE</center></h4><br>
+                            <hr style="height:3px; width:40%; border-width:0px; margin-top:0; background-color:rgb(97, 216, 252);">
+                    <br><div class="contact-form-wthreelayouts" style="background: rgb(118,172,227);
+background: linear-gradient(163deg, rgba(118,172,227,1) 6%, rgba(254,212,244,1) 54%);">
                         <form action="#" method="post" class="register-wthree">
-                            <div class="form-group">
-                                <label>
-                                    Your Name
-                                </label>
-                                <input class="form-control" type="text" placeholder="Johnson" name="email" required="">
+                            <div class="form-group" >
+                                
+                                <input class="form-control" type="text" placeholder="Enter Your Name" name="name" required="">
                             </div>
-                            <div class="form-group">
-                                <label>
-                                    Mobile
-                                </label>
-                                <input class="form-control" type="text" placeholder="xxxx xxxxx" name="email" required="">
-                            </div>
-                            <div class="form-group">
-                                <label>
-                                    Email
-                                </label>
+                             <div class="form-group">
+                               
                                 <input class="form-control" type="email" placeholder="example@email.com" name="email"
                                     required="">
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Your message
-                                </label>
-                                <textarea placeholder="Type your message here" class="form-control"></textarea>
+                               
+                                <textarea placeholder="Type your feedback here " name="message" class="form-control"required=""></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-w3layouts btn-block  bg-dark text-white w-100 font-weight-bold text-uppercase">Send</button>
+                             <button type="submit"   name="send_feedback" style="background-color:rgb(110,160,277)" class="btn btn-w3layouts btn-block   text-white w-100 font-weight-bold text-uppercase"> SEND   ✔️   </button>
                             </div>
                         </form>
                     </div>
@@ -88,234 +308,22 @@
         </div>
     </section>
      
-    <!-- team -->
-    <section class="w3layouts_hubits-services align-w3" id="team">
-        <div class="container">
-            <div class="wthree_pvt_title text-center">
-                <h4 class="w3pvt-title">our team
-                </h4>
-                <span class="sub-title">add your caption here</span>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 team-grids">
-                    <div class="team-effect">
-                        <img src="images/t1.jpg" alt="img" class="img-fluid">
-                    </div>
-                    <!-- team text -->
-                    <div class="team_wthree mt-3">
-                        <h4>John Smith</h4>
-                        <p>electu iciend</p>
-                        <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-linkedin"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-whatsapp"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-instagram"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-facebook"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- //team text -->
-                </div>
-                <div class="col-lg-4 col-sm-6 team-grids mt-sm-0 mt-5">
-                    <div class="team-effect">
-                        <img src="images/t3.jpg" alt="img" class="img-fluid">
-                    </div>
-                    <!-- team text -->
-                    <div class="team_wthree mt-3">
-                        <h4>Thomson Doe</h4>
-                        <p>aliius orci</p>
-                        <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-linkedin"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-whatsapp"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-instagram"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-facebook-f"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- //team text -->
-                </div>
-                <div class="col-lg-4 col-sm-6 team-grids mt-lg-0 mt-5">
-                    <div class="team-effect">
-                        <img src="images/t2.jpg" alt="img" class="img-fluid">
-                    </div>
-                    <!-- team text -->
-                    <div class="team_wthree mt-3">
-                        <h4>Smith Kevin</h4>
-                        <p>llam duimg</p>
-                        <ul class="social-iconsv2 w3layouts_hubinfo pt-4">
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-linkedin "></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-whatsapp"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-instagram"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-facebook-f"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //team -->
+
+    <!-- FORM END  -->
+
+
+    <BR>
+    <BR>
+     
 
     
    
-    <!-- footer -->
-    <footer class="footer py-md-5 pt-md-3 pb-sm-5">
-        <div class="container-fluid">
-            <div class="row p-sm-4 px-3 py-5">
-                <div class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">
-                    <h2>
-                        <a class="navbar-brand" href="index.html">
-                            temple hub
-                        </a>
-                    </h2>
-                    <p class="my-3 text-white">Donec consequat sam libero tempore, cum soluta nobis est eligendi optio
-                        cumque
-                        nihil impedit quo minus</p>
-                    <p class="text-white">
-                        Id quod possimusapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at, semper
-                        varius
-                        orci.
-                    </p>
-                </div>
-                <div class="col-lg-2  col-md-6 mt-md-0 mt-5">
-                    <div class="footerv2-w3ls">
-                        <h3 class="mb-3 w3f_title">Navigation</h3>
-                        <hr>
-                        <ul class="list-w3pvtits">
-                            <li>
-                                <a href="index.html">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="about.html">
-                                    About Us
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="gallery.html">
-                                    Gallery
-                                </a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="services.html">
-                                    Services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="contact.html">
-                                    Contact Us
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
-                    <div class="footerv2-w3ls">
-                        <h3 class="mb-3 w3f_title">Links</h3>
-                        <hr>
-                        <ul class="list-w3pvtits">
-                            <li>
-                                <a href="about.html">
-                                    Our Mission
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="index.html">
-                                    Latest posts
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="index.html">
-                                    Explore
-                                </a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="contact.html">
-                                    Find us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
-                    <div class="footerv2-w3ls">
-                        <h3 class="mb-3 w3f_title">Contact Us</h3>
-                        <hr>
-                        <div class="fv3-contact">
-                            <p>
-                                <a href="mailto:example@email.com">info@example.com</a>
-                            </p>
-                        </div>
-                        <div class="fv3-contact my-2">
-                            <p>+456 123 7890</p>
-                        </div>
-                        <div class="fv3-contact">
-                            <p>+90 nsequursu dsdesdc,
-                                <br>xxx Street State 34789.</p>
-                        </div>
-                    </div>
-                </div>
+    <?php
 
-            </div>
-        </div>
-        <!-- //footer bottom -->
-    </footer>
-    <!-- //footer -->
-    <!-- copyright -->
-    <div class="cpy-right text-center bg-theme">
-        <p class="text-black">© 2018 Temple Hub. All rights reserved 
-        </p>
-    </div>
+include("footer.php");
+?>
+
+    
     <!-- //copyright -->
      <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
@@ -360,25 +368,45 @@
     <script src="js/bootstrap.js"></script>
 
 
-    <div class="row">
-        <div class="col-md-3">
-
-        </div>
-        <div class="col-md-6"style="background-color: aliceblue;">
-            <table >
-                <tr>
-                    <th>USER ID
-                    </th>
-                    <th>USER NAME</th>
-                </tr>
-                <tr>
-                    
-                </tr>
-
-                <th></th>
-            </table>
-        </div>
-    </div>
+   
 </body>
 
 </html>
+
+
+<?php
+include('conn.php');
+
+if(isset($_POST['send_feedback']))
+{
+    extract($_POST);
+    //$lang=implode(',',$_POST['lang']);
+
+    
+
+    
+
+    echo $set="insert into feedback_table(name,email_id,feedback)
+                 value('$name','$email','$message')";
+    $add=mysqli_query($connect,$set)or die (mysqli_error($connect));
+    if($set)
+    {
+        echo "<script>;";
+        echo "window.alert('data inserted sucessfully!!');";
+        echo 'window.location.href="contact.php";';
+        echo "</script>;";
+    }
+    else
+    {   echo "<script>;";
+        echo "window.alert('error occured in insertion!!');";
+        echo 'window.location.href="contact.php";';
+        echo "</script>;";
+    }
+
+
+
+
+
+}
+?>
+

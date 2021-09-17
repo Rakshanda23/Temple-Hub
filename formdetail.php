@@ -1,3 +1,10 @@
+<script type="text/javascript" src="calculation.js">
+</script>
+<?php
+  include('conn.php');
+  ?>  
+
+
 
 
 <!----register------>
@@ -20,17 +27,17 @@
                         </div>
                         <div class="form-group">
                             <label for="recipient-email" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Email</label>
-                            <input type="email" class="form-control" placeholder="Enter Email" name="Email" id="recipient-email"
+                            <input type="email" class="form-control" placeholder="Enter Email"  name="Email" id="recipient-email"
                                 required="">
                         </div>
                         <div class="form-group">
                             <label for="password1" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="Enter Password " name="Password" id="password1"
+                            <input type="password" class="form-control" placeholder="Enter Password " minlength="6" name="Password" id="password1"
                                 required="">
                         </div>
                         <div class="form-group">
                             <label for="password2" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Confirm Password</label>
-                            <input type="password" class="form-control" placeholder="Re-enter Password " name="Confirm_Password" id="password2"
+                            <input type="password" class="form-control" placeholder="Re-enter Password " minlength="6" name="Confirm_Password" id="password2"
                                 required="">
                         </div>
                         <div class="sub-w3l">
@@ -41,7 +48,7 @@
                             </div>
                         </div>
                         <div class="right-w3l">
-                            <input type="submit" name="register_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
+                            <input type="submit" name="register_button"  style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
                             <!-- to do link it with login section id  -->
                         </div>
                     </form>
@@ -74,9 +81,103 @@
                         </div>
                         <div class="form-group">
                             <label for="password" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="Enter Password" name="Password" id="password"
-                                required="">
+                            <input type="password" class="form-control" minlength="6" placeholder="Enter Password"  name="Password" id="password"
+                            required="">
                         </div>
+
+                        
+                            
+                            
+                            <label for="havan" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Havan</label>
+                            <div class=row>
+                            
+                            
+                                <div class=col-lg-6>
+                                    
+                                    <input type="checkbox" id="havan1" value="abc" name="hav[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>mahamrutunjay jap</label><br>
+                                    <input type="checkbox" id="havan2" value=" def" name="hav[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>havan2</label><br>
+                                    <input type="checkbox" id="havan3" value="fbdf" name="hav[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>havan3</label> <br>
+                                  
+                                </div>
+                                <div class=col-lg-6> 
+
+                                <input type="checkbox" id="havan4" value="ghi" name="hav[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>mahamrutunjay jap</label><br>
+                                    <input type="checkbox" id="havan5" value="jkl" name="hav[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>havan2</label><br>
+                                    <input type="checkbox" id="havan6" value="fg" name="hav[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>havan3</label> <br>
+                                </div> 
+                            </div> 
+
+                            <!-- havan -->
+                            <label for="additional" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">EXTRA</label>
+                            <div class=row>
+                            
+                            
+                                <div class=col-lg-6>
+                                    
+                                    <input type="checkbox" id="extra1" value="mno" name="lang[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>flowers</label><br>
+                                    <input type="checkbox" id="extra2" value="pqr" name="lang[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>essence stick</label><br>
+                                    <input type="checkbox" id="extra3" value="hg" name="lang[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>essence stick</label> <br>
+                                  
+                                </div>
+                                <div class=col-lg-6> 
+
+                                <input type="checkbox" id="extra4" value="stu" name="lang[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>essence stick</label><br>
+                                    <input type="checkbox" id="extra5" value="vwx" name="lang[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>essence stick</label><br>
+                                    <input type="checkbox" id="extra6" value="sg" name="lang[]" onclick="amt_cal()">
+                                    <label for="brand1" class="text-white" >
+                                    <span></span>essence stick</label> <br>
+                                </div> 
+                            </div> 
+                            <!-- extra -->
+                            <label for="charity" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Charity</label><br>
+                            <!-- <input type="number" class="form-control" placeholder="Enter Amount" name="charity" id="charity"
+                                ><br> -->
+                                <div class="form-group">
+                                <input type="text" id="charity" name="Charity" class="form-control"onchange="amt_cal()">
+                                </div>
+
+                                <!-- charity -->
+                                <div class="form-group">
+                                <label for="date" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Date</label>
+                                <input type="date" class="form-control" name="Date" required>
+                                </div>
+                                <div class="form-group">
+                                <label for="price" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Total Amount</label>
+                                
+                                    
+                                <!-- <input input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }type="number" 
+                                class="form-control" placeholder="" name="price" id="price"
+                                required=""> -->
+                                <input type="text" id="price"class="form-control" name="Price">
+</div> 
+                                
+
+                                
+                                
+                                <!-- total amt  -->
+
                         <div class="right-w3l">
                             <input type="submit" name="submit_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Login">
                         </div>
@@ -103,7 +204,7 @@
     <!-- //login -->
 
 
-    
+    <!--registration check  -->
 <?php
 include('conn.php');
 if(isset($_POST['register_button']))
@@ -134,45 +235,110 @@ if(isset($_POST['register_button']))
 
 
 
-
-<?php
+<!-- login check -->
+ <?php
 include('conn.php');
-if (isset($_POST['submit_button']))
-{
-    $log=0;
-    extract($_POST);
-    $username=mysqli_real_escape_string($connect,$_POST['Name']);
+ if (isset($_POST['submit_button']))
+ {
+     $log=0;
+     $log2=0;
+     extract($_POST);
+     $username=mysqli_real_escape_string($connect,$_POST['Name']);
 
-    $password=mysqli_real_escape_string($connect,$_POST['Password']);
-    echo $check="select * from registration_table where  user_name='$username' and pass='$password'";
+     $password=mysqli_real_escape_string($connect,$_POST['Password']);
+     echo $check="select * from registration_table where  user_name='$username' and pass='$password'";
+    // shreya's logic
+    echo $check2="select * from registration_table where  user_name='$username' or pass='$password'";
+    $log2=mysqli_query($connect,$check2)
+     or die(mysqli_error($connect));
+    // shreya's logic
 
-    $log=mysqli_query($connect,$check)
-    or die(mysqli_error($connect));
-    if(mysqli_num_rows($log)>0)
-    {
-        $fetch=mysqli_fetch_array($log);
 
-        $_SESSION['username']=$fetch['user_name'];
-        $_SESSION['password']=$fetch['pass'];
+     $log=mysqli_query($connect,$check)
+     or die(mysqli_error($connect));
+     if(mysqli_num_rows($log)>0)
+     {
+         $fetch=mysqli_fetch_array($log);
+
+         $_SESSION['username']=$fetch['user_name'];
+         $_SESSION['password']=$fetch['pass'];
 
        
-        echo "<script>;";
-        echo "window.alert('login successfull!!!');";
-        echo 'window.location.href="somnath.php";';
-        echo "</script>;";
-    }
-    
-    else
-    {
+         extract($_POST);
+         $h=implode(',',$_POST['hav']);
+         $e=implode(',',$_POST['lang']);
+         
+     
+         echo $ins="insert into donation_table(user_name,password,havan,samagri,charity,date,price)
+                      value('$Name','$Password','$h','$e','$Charity','$Date','$Price')";
+                     
+         $add=mysqli_query($connect,$ins)or die (mysqli_error($connect));
+     
+         if($ins)
+         {
+             echo "<script>;";
+     
+             echo 'window.location.href="contact.php";';
+             echo "</script>;";
+         }
+         
+
+
+     }
+     else
+     if(mysqli_num_rows($log2)>0)
+     {
         echo"<script>;";
-        echo "window.alert('login failed!!');";
+        echo "window.alert('your username or password is incorrect!!');";
         echo 'window.location.href="somnath.php";';
         echo"</script>;";
-    }
+     }
+     else
+     {
+         echo"<script>;";
+         echo "window.alert('unregistered user!!');";
+         echo 'window.location.href="somnath.php";';
+         echo"</script>;";
+     }
        
         
 
-}
+ }
 
 
 ?>
+
+
+
+ <?php
+// include('conn.php');
+// if(isset($_POST['submit_button']))
+// {
+//     extract($_POST);
+//     $h=implode(',',$_POST['hav']);
+//     $e=implode(',',$_POST['lang']);
+    
+
+//     echo $ins="insert into donation_table(user_name,password,havan,samagri,charity,date,price)
+//                  value('$Name','$Password','$h','$e','$Charity','$Date','$Price')";
+                
+//     $add=mysqli_query($connect,$ins)or die (mysqli_error($connect));
+
+//     if($ins)
+//     {
+//         echo "<script>;";
+//         echo "window.alert('data inserted sucessfully!!');";
+
+//         echo 'window.location.href="somnath.php";';
+//         echo "</script>;";
+//     }
+//     else
+//     {   echo "<script>;";
+//         echo "window.alert('error occured in insertion!!');";
+//         echo 'window.location.href="index.php";';
+//         echo "</script>;";
+//     }
+
+
+// }
+?>  

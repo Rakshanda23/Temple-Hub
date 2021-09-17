@@ -30,16 +30,28 @@
     <!-- //online-fonts -->
 </head>
 
+<!-- for reg table  -->
+<?php
+// include('conn.php');
+
+   
+//     $view=mysqli_query($connect,"select id,user_name from registration_table ")
+//     or die (mysqli_error($connect));
+
+
+?>
 
 <?php
 include('conn.php');
 
    
-    $view=mysqli_query($connect,"select id,user_name from registration_table ")
+    $display=mysqli_query($connect,"select id,user_name,havan,samagri,charity,date,price from donation_table ")
     or die (mysqli_error($connect));
 
 
 ?>
+
+<!-- end reg table  -->
 
 <body>
         <?php
@@ -65,12 +77,18 @@ include('conn.php');
 
         
    </pre>
+
+  
+
+
+        <!-- login table start -->
+        
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-2">
 
     </div>
 
-   <div class="col-md-6">
+   <div class="col-md-8">
         <form action="">
           <div style="color:white" class="table-responsive" >
           <table style="border:10px;" class="table table-bordered table-hover table-striped">
@@ -78,18 +96,28 @@ include('conn.php');
                 
               <th>SR.NO. </th>
               <th>USER NAME</th>
+              <th>HAVAN</th>
+              <th>SAMAGRI </th>
+              <th>CHARITY </th>
+              <th>DATE</th>
+              <th>PRICE </th>
             </tr> 
             <?php
             $counter=0;
-            while($row = mysqli_fetch_array($view))
+            while($row = mysqli_fetch_array($display))
             {
                 extract($row);
             ?>
                 <tr>
                     <td><?php echo ++$counter; ?></td>
-                    <!-- <td><?php echo $row['id'];?></td> -->
                     <td><?php echo $row['user_name'];?></td> 
-                    
+                    <td><?php echo $row['havan'];?></td> 
+                    <td><?php echo $row['samagri'];?></td> 
+                    <td><?php echo $row['charity'];?></td> 
+                    <td><?php echo $row['date'];?></td> 
+
+                    <td><?php echo $row['price'];?></td> 
+
                 </tr>
             <?php
             }
@@ -106,126 +134,20 @@ include('conn.php');
 
 
         </div><!--row-->
+        <!-- login table end  -->
+        <BR>
+        <BR>
+        <BR>
+
 
    
     
     <!-- //portfolio -->
-    <!-- footer -->
-    <footer class="footer py-md-5 pt-md-3 pb-sm-5">
-        <div class="container-fluid">
-            <div class="row p-sm-4 px-3 py-5">
-                <div class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">
-                    <h2>
-                        <a class="navbar-brand" href="index.html">
-                            teens hub
-                        </a>
-                    </h2>
-                    <p class="my-3 text-white">Donec consequat sam libero tempore, cum soluta nobis est eligendi optio
-                        cumque
-                        nihil impedit quo minus</p>
-                    <p class="text-white">
-                        Id quod possimusapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at, semper
-                        varius
-                        orci.
-                    </p>
-                </div>
-                <div class="col-lg-2  col-md-6 mt-md-0 mt-5">
-                    <div class="footerv2-w3ls">
-                        <h3 class="mb-3 w3f_title">Navigation</h3>
-                        <hr>
-                        <ul class="list-w3pvtits">
-                            <li>
-                                <a href="index.html">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="about.html">
-                                    About Us
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="gallery.html">
-                                    Gallery
-                                </a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="services.html">
-                                    Services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="contact.html">
-                                    Contact Us
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
-                    <div class="footerv2-w3ls">
-                        <h3 class="mb-3 w3f_title">Links</h3>
-                        <hr>
-                        <ul class="list-w3pvtits">
-                            <li>
-                                <a href="about.html">
-                                    Our Mission
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="index.html">
-                                    Latest posts
-                                </a>
-                            </li>
-                            <li class="my-2">
-                                <a href="index.html">
-                                    Explore
-                                </a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="contact.html">
-                                    Find us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
-                    <div class="footerv2-w3ls">
-                        <h3 class="mb-3 w3f_title">Contact Us</h3>
-                        <hr>
-                        <div class="fv3-contact">
-                            <p>
-                                <a href="mailto:example@email.com">info@example.com</a>
-                            </p>
-                        </div>
-                        <div class="fv3-contact my-2">
-                            <p>+456 123 7890</p>
-                        </div>
-                        <div class="fv3-contact">
-                            <p>+90 nsequursu dsdesdc,
-                                <br>xxx Street State 34789.</p>
-                        </div>
-                    </div>
-                </div>
+    <?php
 
-            </div>
-        </div>
-        <!-- //footer bottom -->
-    </footer>
-    <!-- //footer -->
-    <!-- copyright -->
-    <div class="cpy-right text-center bg-theme">
-        <p class="text-white">© 2018 Teens Hub. All rights reserved | Design by
-            <a href="http://w3layouts.com"> W3layouts.</a>
-        </p>
-    </div>
-    <!-- //copyright --> 
+  include("footer.php");
+  ?>
+
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
