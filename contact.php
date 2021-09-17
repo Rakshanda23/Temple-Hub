@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Teens Hub People Category Flat Bootstrap Responsive website Template | Contact :: w3layouts</title>
+    <title>Teens Hub People Category Flat Bootstrap Responsive website Template | About :: w3layouts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Teens Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -27,60 +27,173 @@
         rel="stylesheet">
     <!-- //online-fonts -->
 
+
+
+    <?php
+    include("formdetail.php");
+    ?>
+
     <style type="text/css">
-    #rakzz{
-            color: rgba(252,189,186,1);
+ #j1{
+            
+    background: rgb(242,159,3);
+background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
+        color:black;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 0;
+            border-radius: 20px;
+            font-family:serif;
+            width: 35%;
+
+            
+        }
+
+        #j3{
+            background-color:rgba(58, 57, 57, 0.900);           
+            width: 40%;
+            border-radius:30px;
+            padding:22px;
+        }
+
+        .h{
+            font-family: Gill Sans;
+            font-size: 60px;
+            font-weight: bolder;
+        }
+
+        .img-with-text {
+            text-align: justify;
+            width: 1000px;
+            padding: 30px; 
+            font-size: large;           
+            font-family:serif;
+        }
+
+        #j2{
+            background-color: rgba(0, 0, 0, 0.808);
+            color:rgba(242,159,3,1);
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 0;
+            border-radius: 0px;
+            font-family: cursive;
+            width: 85%;          
+            border-style:solid;
+            border-width: 8px;            
+            text-align: justify;            
+            font-size: 25px; 
+                              
+        }
+       
+
+        #rakzz{
+            color: rgba(242,159,3,1);
             background-color:black;
             border:black;
         }
-    #rakzz:hover{
-            background-color:rgba(121,173,233,1);
+
+       .customButton:focus{
+            font-family:sans-serif;
+            
+       }
+        #rakzz:hover{
+            background-color:rgba(252,70,107,1);
             color:black;
         }
 
         #rakzzdd{
             color:black;
-            background-color:rgba(121,173,233,1);
+            background-color:rgba(242,159,3,1);
         }
         #rakzzdd.active{
             color:black;
             background-color:rgba(252,189,186); 
         }
         #rakzzdd:hover{
-            background-color:rgba(252,189,186); 
+            background-color:rgba(252,70,107,1); 
         }
 
         #shh{
-            background-color:rgba(252,189,186,1); 
+            background-color:rgba(252,70,107,1); 
             color:black;
             margin-bottom:20px;
             padding-bottom:5px;
         }
         #shh:hover{
-            background-color:rgba(121,173,233,1);
+            background-color:rgba(242,159,3,1);
             font-size:large;
         }
+
+        #car.active{
+            background-color:yellow; 
+        }
+
+        #car{            
+            background-color:black;
+        }
+
         #names{
             font-size: 50px ;
             font-family: Arial Narrow Bold;
-            color:rgba(252,189,186,1);
-            text-shadow: 0 0 9px rgba(252,189,186,1), 0 0 7px rgba(252,189,186,1); ;
+            color:rgba(252,70,107,1);
+            text-shadow: 0 0 10px rgba(252,70,107,1), 0 0 20px rgba(252,70,107,1); ;
             
         }
-        #we{
-            font-size:30px;
-            color:pink;
-            font-family:Times;
+        #time{
+            font-size: 40px ;
+            font-family: Arial Narrow Bold;
+            color:rgba(242,159,3,1);
+            text-shadow: 0 0 15px rgba(252,189,186,1), 0 0 10px rgba(252,189,186,1); ;
+            border:rgba(252,70,107,1);
+            border-style:solid;
+            padding:20px;
+            margin-left:650px;
+            margin-right:650px;
         }
-        
+
+        #heading{
+            font-size: 50px ;
+            font-family:Georgia;           
+            color:rgba(252,70,107,1);            
+            border:rgba(252,70,107,1);
+            border-style:double;
+            border-width:12px;
+            border-radius:100px;
+            padding:20px;
+            margin-left:0;
+            margin-right:0;
+        }
+
+
+        #blog1{
+            background: rgb(252,189,186);
+            background: linear-gradient(180deg, rgba(242,159,3,1)  50%, rgba(252,70,107,1) 90%);
+
+font-weight: bold;
+            color:black;
+            font-family:'Times New Roman';
+            font-size:20px;
+        }
+
+        #blog2{
+            background: rgb(115,202,247);
+background: linear-gradient(180deg, rgba(252,70,107,1)  0%, rgba(242,159,3,1) 39%);
+font-weight: bolder;
+            color:black;
+            font-family:Georgia;
+            text-align:justify;
+        }
        
-    </style>
+        #foot{
+            background-image:images/foot.jpg;
+        }
+
+        </style>
 
 </head>
 
 <body>
-    <!-- inner banner -->
-    
     <!-- inner banner -->
     <section class="inner-banner-w3ls d-flex flex-column justify-content-center align-items-center">
         <!-- header -->
@@ -88,7 +201,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
                 <h1>
                     <a class="navbar-brand" href="index.php" style="  background: -webkit-radial-gradient(33% 100% circle, red 4%, orange 30%, red 62%, #9B36B7 85%, #515ECF);
-    background: radial-gradient(circle at 35% 100%, rgba(252,189,186,1) 20%, rgba(121,173,233,1) 30%, rgba(252,189,186,1) 62%, rgba(252,189,186,1) 70%, rgba(121,173,233,1));
+    background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252,70,107,1) 30%,  rgba(242,159,3,1) 62%,  rgba(242,159,3,1) 70%, rgba(252,70,107,1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;">
                         Temple Hub
@@ -102,30 +215,32 @@
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li>
                             <div class="d-sm-flex justify-content-center" >
-                                <button type="button" class="btn  w3ls-btn bg-theme" data-toggle="modal" aria-pressed="false"
+                                <button type="button" class="btn  w3ls-btn bg-theme" name="submit_button" style="font-weight:bolder;border-radius:10px;font-size:20px"  data-toggle="modal" aria-pressed="false"
                                 data-target="#exampleModal" id="shh">HAVAN</button>
                             </div>
 
-                        </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </li> &nbsp;&nbsp;
                         <li class="nav-item   mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.php" id="rakzz">Home
+                            <a class="nav-link" href="index.php" style="font-weight:bolder;font-size:20px"id="rakzz">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3">
-                            <a id="rakzz" class="btn btn-secondary dropdown-toggle customButton" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            <a id="rakzz" class="btn btn-secondary dropdown-toggle customButton" href="#" style="border-radius:10px;font-size:20px;font-weight:bolder;margin-top:-2px" id="navbarDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                                Dropdown
+                                TEMPLES
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="rakzzdd">
                                 <a class="dropdown-item" href="somnath.php"id="rakzzdd">Somnath</a>
                                 <a class="dropdown-item" href="kedar.php"id="rakzzdd">Kedarnath</a>
-                                <a class="dropdown-item scroll" href="ram.php"id="rakzzdd">Rameshawaram</a>
-                                <a class="dropdown-item scroll" href="mahakal.php"id="rakzzdd">Mahakaleshwarm</a>
+                                <a class="dropdown-item" href="rama.php"id="rakzzdd">Rameshawaram</a>
+                                <a class="dropdown-item" href="mahakal.php"id="rakzzdd">Mahakaleshwarm</a>
+                                <a class="dropdown-item " href="omkar.php"id="rakzzdd">Omkareshwar</a>
+
                             </div>
                         </li>
                         <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="contact.php" id="rakzz">About us</a>
+                            <a class="nav-link" href="contact.php" style="font-weight:bolder;font-size:20px"id="rakzz">About us</a>
                         </li>
                     </ul>
                 </div>
@@ -144,7 +259,7 @@
         </ol>
     </nav> -->
     <!-- //breadcrumbs --> 
-        <br><br><br>   
+        <br>  
         
        
     <!-- team -->
@@ -274,6 +389,8 @@
 
 
 
+    <br>
+    <br>
 
      
         <!-- FORM  -->
@@ -283,7 +400,7 @@
                 <h4 class="w3pvt-title" id="names"><center>SEND US A NOTE</center></h4><br>
                             <hr style="height:3px; width:40%; border-width:0px; margin-top:0; background-color:rgb(97, 216, 252);">
                     <br><div class="contact-form-wthreelayouts" style="background: rgb(118,172,227);
-background: linear-gradient(163deg, rgba(118,172,227,1) 6%, rgba(254,212,244,1) 54%);">
+background: linear-gradient(163deg, rgba(118,172,227,1) 6%, rgba(254,212,244,1) 54%);"><br>
                         <form action="#" method="post" class="register-wthree">
                             <div class="form-group" >
                                 
@@ -314,7 +431,10 @@ background: linear-gradient(163deg, rgba(118,172,227,1) 6%, rgba(254,212,244,1) 
 
     <BR>
     <BR>
-     
+    <br>
+    <br>
+    <br>
+     <br>
 
     
    

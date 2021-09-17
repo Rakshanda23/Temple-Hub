@@ -188,10 +188,10 @@
                                 <label for="brand1" class="text-white" >
                                     <span></span>Remember me?</label>
                             </div>
-                            <div class="col forgot-w3l text-sm-right">
+                            <!-- <div class="col forgot-w3l text-sm-right">
                                 <a href="#" class="text-white">Forgot Password?</a>
-                            </div>
-                        </div>
+                            </div>-->
+                        </div> 
                         <p class="text-center dont-do text-white">Don't have an account?
                             <a  data-toggle="modal" data-target="#exampleModal1" class="text-dark" data-dismiss="modal" > 
                                  Register Now</a>
