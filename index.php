@@ -27,7 +27,7 @@
         rel="stylesheet">
     <!-- //online-fonts -->
    <?php
-   //include("formdetail.php");
+   include("formdetail.php");
    ?>
 <style>
     #image-try{
@@ -212,10 +212,10 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-lg-auto text-center">
                     <li>
-                        <div class="d-sm-flex justify-content-center" >
-                            <button type="button" class="btn  w3ls-btn bg-theme"  name="submit_button" style="border-radius:10px;font-weight:bolder;font-size:20px"  data-toggle="modal" aria-pressed="false"
-                            data-target="#exampleModal" id="shh">HAVAN</button>
-                        </div>
+                    <div class="d-sm-flex justify-content-center" >
+                                <button type="button" class="btn  w3ls-btn bg-theme" name="register_button" style="font-weight:bolder;border-radius:10px;font-size:20px"  data-toggle="modal" aria-pressed="false"
+                                data-target="#exampleModal1" id="shh">REGISTER</button>
+                            </div>
 
                     </li> &nbsp;&nbsp;
                     <li class="nav-item   mr-lg-3 mt-lg-0 mt-3">
@@ -247,21 +247,77 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
     <!-- //header -->
     <br><br><br>
     <!-- banner -->
-    <?php
-       // include('header1.php');
-    ?>
-    <section class="banner d-flex flex-column justify-content-center align-items-center">
-        <!-- header -->
-       
-    </section>  
+    
+
+
+
+
+   
      <!-- slide -->
-     <section class="slide-banner d-flex flex-column justify-content-center align-items-center my-lg-5">
-        <!-- <h5 class="text-center">Staying Connected To Your Teenager</h5> -->
-        <div class=" text-center">
-            <h3 class="home-banner-w3 ">Stay Connected To Your Mahadev  </h3>
-            <div class="d-sm-flex justify-content-center">
+    
+
+
+
+<!-- explore-->
+<br>
+<br>
+<br>
+<br>
+<div class="banner-section" id="explore">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="slider-container col-lg-12 mx-auto">
+                <div class="w3ls-about-banner">
+                    <div class="callbacks_container">
+                        <ul class="rslides callbacks callbacks1 slider3">
+                            <li>
+                                <div class="slide-img slide-img1">
+                                    <div class="banner-info">
+                                        <h3>Temple Hub</h3>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="slide-img slide-img2">
+                                    <div class="banner-info">
+                                        <h3>Temple Hub</h3>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="slide-img slide-img3">
+                                    <div class="banner-info">
+                                        <h3>Temple Hub</h3>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-right">
+    
+                        <h3 class="title" style="font-size: 45px;color:cornsilk">STAY CONNECTED TO YOUR MAHADEV</h3>
+                        <p ><b>Trust him! He won't let you fail...🔱💓</p>
+                        
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
 </div>
+<!--//explore-->
+
+<br>
+<br><br>
+<br>
+
+
+
+
+
+
+
             <!-- <a href="gallery.html" class="btn btn-primary mt-4 wthree-link-bnr">view more</a> -->
     </section>
     <!-- //slide -->
@@ -279,15 +335,15 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
     
     <!-- //banner -->
     <!-- about-->
-    <section class="single_grid_w3_main align-w3" id="about">
+<section class="single_grid_w3_main align-w3" id="about">
         <div class="container">
-            <div class="wthree_pvt_title text-center">
+                <div class="wthree_pvt_title text-center">
                 <h4 class="w3pvt-title" style="color: rgba(252,70,107);margin-bottom: 0px;"> 12 Maha Jyotirlinga of Shiva
                 </h4>
                 <span class="sub-title">A devotional representation of the Hindu god Shiva</span>
             </div>
             <div class="row pt-md-4" style="margin-top: 0px;">
-                <div class="col-sm-6">
+                <div class="col-lg-6">
                         <h5>SOMNATH
                             <span class="wthree-line-1"></span>
                         सोमनाथ|</h5>
@@ -318,7 +374,7 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
                             <span class="wthree-line-3"></span>
                             रामेश्वर॥</h5>
                     <div class="single_grid_w32 single_grid_w2">
-                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="ram.php">view more
+                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="rama.php">view more
                         </a> 
                     </div>
                 </div>
@@ -342,7 +398,7 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
                             <span class="wthree-line-3"></span>
                             ॐकारेश्वर</h5></center>>
                     <div class="single_grid_w32 single_grid_w2" id="image-try">
-                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="ram.php">view more
+                        <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="omkar.php">view more
                         </a> 
                     </div>
                 </div>
@@ -350,128 +406,28 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
             <!-- till here -->
         </div>
     </section>
-    <!-- //about -->
-    <!-- explore-->
-    <div class="banner-section" id="explore">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="slider-container col-lg-12 mx-auto">
-                    <div class="w3ls-about-banner">
-                        <div class="callbacks_container">
-                            <ul class="rslides callbacks callbacks1 slider3">
-                                <li>
-                                    <div class="slide-img slide-img1">
-                                        <div class="banner-info">
-                                            <h3>Temple Hub</h3>
-                                        </div>
-                                    </div>
 
-                                </li>
-                                <li>
-                                    <div class="slide-img slide-img2">
-                                        <div class="banner-info">
-                                            <h3>Temple Hub</h3>
-                                        </div>
-                                    </div>
 
-                                </li>
-                                <li>
-                                    <div class="slide-img slide-img3">
-                                        <div class="banner-info">
-                                            <h3>Temple Hub</h3>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="slider-right">
-                            <h3 class="title" style="font-size: 45px;color:cornsilk">STAY CONNECTED TO YOUR MAHADEV</h3>
-                            <p>We are here to Server you best😍</p>
-                        </div>
-                    </div>
-                </div>
+
+    <section class="slide-banner d-flex flex-column justify-content-center align-items-center my-lg-5">
+        
+        <div class=" text-center">
+            <h3 class="home-banner-w3 "><span style="font-size:45px;" class="fa fa-quote-left"></span>  When Shiva beats his damru-evil shakes and the wise awakes  <span style="font-size:45px;" class="fa fa-quote-right"></span></h3>
+           <div class="d-sm-flex justify-content-center">
             </div>
-        </div>
-    </div>
-    <!--//explore-->
-   
-   
+</div>
+            </section>
+
+
+
+
+
     <?php
 
   include("footer.php");
   ?>
 
-    <!-- blog modal1 -->
-    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title textwhite" id="exampleModalLabel2">This is a standard post.</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="images/g1.jpg" class="img-fluid" alt="" />
-                    <p class="text-left my-4">
-                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
-                        nisl
-                        tempus convallis quis ac
-                        lectus. Cras ultricies ligula sed magna dictum porta.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //blog modal1 -->
-    <!-- blog modal2 -->
-    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-white" id="exampleModalLabel3">This is a standard post.</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="images/g2.jpg" class="img-fluid" alt="" />
-                    <p class="text-left my-4 text-white">
-                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
-                        nisl
-                        tempus convallis quis ac
-                        lectus. Cras ultricies ligula sed magna dictum porta.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //blog modal2 -->
-    <!-- blog modal3 -->
-    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-white" id="exampleModalLabel4">This is a standard post.</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="images/g3.jpg" class="img-fluid" alt="" />
-                    <p class="text-left my-4 text-white">
-                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
-                        nisl
-                        tempus convallis quis ac
-                        lectus. Cras ultricies ligula sed magna dictum porta.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- //blog modal3-->
     
     <!-- js -->

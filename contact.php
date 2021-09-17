@@ -214,10 +214,7 @@ font-weight: bolder;
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li>
-                            <div class="d-sm-flex justify-content-center" >
-                                <button type="button" class="btn  w3ls-btn bg-theme" name="submit_button" style="font-weight:bolder;border-radius:10px;font-size:20px"  data-toggle="modal" aria-pressed="false"
-                                data-target="#exampleModal" id="shh">HAVAN</button>
-                            </div>
+                            
 
                         </li> &nbsp;&nbsp;
                         <li class="nav-item   mr-lg-3 mt-lg-0 mt-3">
