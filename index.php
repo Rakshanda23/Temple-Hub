@@ -324,7 +324,9 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
 <section class="single_grid_w3_main align-w3" id="about">
         <div id="container_my">
                 <div class="wthree_pvt_title text-center">
-                <h4 class="w3pvt-title" style="color: rgba(252,70,107);margin-bottom: 0px;"> 12 Maha Jyotirlinga of Shiva
+                <h4 class="w3pvt-title" style="color: rgb(242,159,3);
+    color: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
+    margin-bottom: 0px;"> 5 Maha Jyotirlinga of Shiva
                 </h4>
                 <span class="sub-title">A devotional representation of the Hindu god Shiva</span>
             </div>
@@ -396,19 +398,19 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
             </div>
                 </div>
     </section>
-<br>
+<br><br>
 
     <section class="slide-banner d-flex flex-column justify-content-center align-items-center my-lg-5">
         
         <div class=" text-center">
-            <h3 class="home-banner-w3"><span style="font-size:45px;" class="fa fa-quote-left edit_span"></span> When Shiva beats his damru-evil shakes and the wise awakes  <span style="font-size:45px;" class="fa fa-quote-right"></span></h3>
+            <h3 class="home-banner-w3" ><span style="font-size:55px;" class="fa fa-quote-left edit_span"></span> When Shiva beats his damru- <br> evil shakes and the wise awakes <span style="font-size:55px;" class="fa fa-quote-right"></span></h3>
            <div class="d-sm-flex justify-content-center">
             </div>
         </div>
             </section>
 
 
-<br><br><br>
+<br><br><br><br><br>
     <?php
 
 include("footer.php");

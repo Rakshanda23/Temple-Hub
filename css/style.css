@@ -269,8 +269,9 @@ h3.home-banner-w3 {
     text-transform: uppercase;
     width: 70%;
     margin: 0 auto 0.5em;
-    font-weight: 700;
+    font-weight:bold;
     margin-top: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h3.span{
     margin-top:1%;
@@ -312,7 +313,7 @@ h4.w3pvt-title {
 }
 
 span.sub-title {
-    font-size: 0.95em;
+    font-size: 1.4em;
     color:whitesmoke;
     font-weight: 600;
     text-transform: capitalize;
@@ -341,7 +342,7 @@ span.sub-title {
 #btn_edit
 {
     margin-bottom: 10%;
-    margin-left: 1.5%;
+    margin-left: 15%;
     color: black;
     background: rgb(242,159,3);
     background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
