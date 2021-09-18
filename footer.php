@@ -11,10 +11,11 @@
                         <div class="col-md-8" style="font-size:20px;color:rgba(252,70,107,1); margin-left:900px;margin-top:-50px;font-weight:lighter;"><a style="color:darksalmon"href="index.php">Register</a></div>
                         <div class="col-md-12" style="font-size:20px;color:rgba(252,70,107,1); margin-left:1200px;margin-top:-50px;font-weight:lighter;"><a style="color:darksalmon" href="contact.php">About Us</a></div>
                         <div class="col-md-12" style="font-size:20px;color:black;">
-                        <hr style="color:brown;line-height:3px;width:800px;margin-left:530px;margin-top:-15px;">
+            
+                        <hr style="color:brown;line-height:5px;width:800px;margin-left:530px;margin-top:-15px;">
                     </div>                        
                         <center><P>
-                       <pre  style="color:white; margin-left:330px;font-size:20px;margin-bottom:-50px;margin-top:-50px;"> 
+                       <pre  style="color:linen; margin-left:330px;font-size:20px;margin-bottom:-50px;margin-top:-50px;"> 
                         
                         सौराष्ट्रे सोमनाथं च श्रीशैले मल्लिकार्जुनम् ।उज्जयिन्यां महाकालम्ॐकारममलेश्वरम् ॥१॥                        
                         परल्यां वैद्यनाथं च डाकिन्यां भीमाशंकरम् ।सेतुबंधे तु रामेशं नागेशं दारुकावने ॥२॥                        
@@ -32,7 +33,7 @@
     <!-- //footer -->
     <!-- copyright -->
     <div ><center>
-    <p style="padding:15px;color:black;font-size:20px;background:darkolivegreen;">&COPY; 2021 Temple Hub All rights reserved.         
+    <p style="padding:15px;color:black;font-size:20px;background:darkseagreen;">&COPY; 2021 Temple Hub All rights reserved.         
     </center></p>
     </div>
     <!-- //copyright -->   

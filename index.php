@@ -27,7 +27,7 @@
         rel="stylesheet">
     <!-- //online-fonts -->
    <?php
-   include("formdetail.php");
+  // include("formdetail.php");
    ?>
 <style>
     #image-try{
@@ -292,7 +292,7 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
                     </div>
                     <div class="slider-right">
     
-                        <h3 class="title" style="font-size: 45px;color:cornsilk">STAY CONNECTED TO YOUR MAHADEV</h3>
+                        <h3 class="title" style="font-size: 55px;color:cornsilk">STAY CONNECTED TO YOUR MAHADEV</h3>
                         <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight:bold"><b>Trust him! He won't let you fail...🔱💓</p>
                         
                     </div>
@@ -326,9 +326,9 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
                 <div class="wthree_pvt_title text-center">
                 <h4 class="w3pvt-title" style="color: rgb(242,159,3);
     color: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
-    margin-bottom: 0px;"> 5 Maha Jyotirlinga of Shiva
+    margin-bottom: 0px;font-size:45px"> 5 Maha Jyotirlinga of Shiva
                 </h4>
-                <span class="sub-title">A devotional representation of the Hindu god Shiva</span>
+                <!-- <span class="sub-title">A devotional representation of the Hindu god Shiva</span> -->
             </div>
             <div class="row pt-md-4" style="margin-top: 0px;">
                 <div class="col-lg-6">
