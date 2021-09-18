@@ -27,13 +27,15 @@
         rel="stylesheet">
     <!-- //online-fonts -->
    <?php
-   include("formdetail.php");
+  // include("formdetail.php");
    ?>
 <style>
     #image-try{
         background: url("images/omhm2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        height:95%;
+        margin-top:0px;
     }
     #j1{
             
@@ -86,7 +88,11 @@
                     text-align: justify;            
                     font-size: 25px;                       
                 }
-               
+               #container_my{
+                   margin-left:15%;
+                   margin-right:15%;
+    
+               }
         
                 #rakzz{
                     color: rgba(242,159,3,1);
@@ -247,19 +253,8 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
     <!-- //header -->
     <br><br><br>
     <!-- banner -->
-    
-
-
-
-
-   
-     <!-- slide -->
-    
-
-
 
 <!-- explore-->
-<br>
 <br>
 <br>
 <br>
@@ -298,7 +293,7 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
                     <div class="slider-right">
     
                         <h3 class="title" style="font-size: 45px;color:cornsilk">STAY CONNECTED TO YOUR MAHADEV</h3>
-                        <p ><b>Trust him! He won't let you fail...🔱💓</p>
+                        <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight:bold"><b>Trust him! He won't let you fail...🔱💓</p>
                         
                     </div>
                 </div>
@@ -311,15 +306,6 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
 <br>
 <br><br>
 <br>
-
-
-
-
-
-
-
-            <!-- <a href="gallery.html" class="btn btn-primary mt-4 wthree-link-bnr">view more</a> -->
-    </section>
     <!-- //slide -->
         <!-- banner text -->
         <!-- <div class="container">
@@ -336,7 +322,7 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
     <!-- //banner -->
     <!-- about-->
 <section class="single_grid_w3_main align-w3" id="about">
-        <div class="container">
+        <div id="container_my">
                 <div class="wthree_pvt_title text-center">
                 <h4 class="w3pvt-title" style="color: rgba(252,70,107);margin-bottom: 0px;"> 12 Maha Jyotirlinga of Shiva
                 </h4>
@@ -362,6 +348,7 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
                     </div>
                 </div>
             </div>
+            <br>&nbsp;
             <div> 
                 <pre>
 
@@ -388,43 +375,43 @@ background: radial-gradient(circle at 35% 100%,  rgba(242,159,3,1) 20%, rgba(252
                     </div>
                 </div>
             </div>
-            <br>
-            <!-- changesn to be cut -->
+            <br><br>&nbsp;
+            <div> 
+                <pre>
+
+                </pre>
+            </div>
             <div class="row pt-md-4" >
                 <div class="col-sm-3">
                 </div>
                 <div class="col-sm-6" >
                        <center> <h5>OMKARESHWAR
                             <span class="wthree-line-3"></span>
-                            ॐकारेश्वर</h5></center>>
-                    <div class="single_grid_w32 single_grid_w2" id="image-try">
+                            ॐकारेश्वर</h5></center>
+                    <div class="single_grid_w32 single_grid_w32" id="image-try">
                         <a class="btn bg-theme mt-4 wthree-link-bnr" id="btn_edit" href="omkar.php">view more
                         </a> 
                     </div>
                 </div>
             </div>
-            <!-- till here -->
-        </div>
+                </div>
     </section>
-
-
+<br>
 
     <section class="slide-banner d-flex flex-column justify-content-center align-items-center my-lg-5">
         
         <div class=" text-center">
-            <h3 class="home-banner-w3 "><span style="font-size:45px;" class="fa fa-quote-left"></span>  When Shiva beats his damru-evil shakes and the wise awakes  <span style="font-size:45px;" class="fa fa-quote-right"></span></h3>
+            <h3 class="home-banner-w3"><span style="font-size:45px;" class="fa fa-quote-left edit_span"></span> When Shiva beats his damru-evil shakes and the wise awakes  <span style="font-size:45px;" class="fa fa-quote-right"></span></h3>
            <div class="d-sm-flex justify-content-center">
             </div>
-</div>
+        </div>
             </section>
 
 
-
-
-
+<br><br><br>
     <?php
 
-  include("footer.php");
+include("footer.php");
   ?>
 
 

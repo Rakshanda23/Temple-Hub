@@ -261,7 +261,7 @@ a.navbar-brand span {
 }
 
 h3.home-banner-w3 {
-    color: #fff;
+    color:black;
     font-size: 3.8em;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -270,8 +270,11 @@ h3.home-banner-w3 {
     width: 70%;
     margin: 0 auto 0.5em;
     font-weight: 700;
+    margin-top: 1%;
 }
-
+h3.span{
+    margin-top:1%;
+}
 /* inner banner */
 
 .inner-banner-w3ls {
@@ -331,13 +334,14 @@ span.sub-title {
     background: url(../images/2.jpg) no-repeat center;
     background-size: cover;
     min-height: 400px;
+    height:95%;
     border: 1px solid #d4d4d4;
     margin-bottom: 0px;
 }
 #btn_edit
 {
     margin-bottom: 10%;
-    margin-left: 2%;
+    margin-left: 1.5%;
     color: black;
     background: rgb(242,159,3);
     background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
@@ -345,6 +349,7 @@ span.sub-title {
     border-color: rgba(242,159,3,1);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:900;
+    font-size:21px;
 }
 #btn_edit.hover
 {
@@ -356,7 +361,9 @@ background: radial-gradient(circle, rgba(252,70,107,1) 2%, rgba(242,159,3,1) 100
 .single_grid_w31 {
     background: url(../images/kedarnath/3.jpg) no-repeat center;
     background-size: cover;
-    min-height: 400px;
+    /* min-height: 400px; */
+    /* height: 50%; */
+    height:95%;
     border: 1px solid #d4d4d4;
     margin-bottom: 0px;
 }
@@ -365,6 +372,7 @@ background: radial-gradient(circle, rgba(252,70,107,1) 2%, rgba(242,159,3,1) 100
     background: url(../images/Rameshwar.jpg) no-repeat center;
     background-size: cover;
     min-height: 400px;
+    height:95%;
     border: 1px solid #d4d4d4;
     margin-bottom: 0px;
 }
@@ -372,6 +380,7 @@ background: radial-gradient(circle, rgba(252,70,107,1) 2%, rgba(242,159,3,1) 100
     background: url(../images/unnamed.jpg) no-repeat center;
     background-size: cover;
     min-height: 400px;
+    height:95%;
     border: 1px solid #d4d4d4;
     margin-bottom: 0px;
 }
@@ -394,7 +403,7 @@ span.wthree-line-2 {
     width: 160px;
     height: 3px;
     margin: 8px 0;
-    margin-left: 380px;
+    margin-left: 77%;
     background: rgb(242,159,3);
     background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
 }
@@ -411,7 +420,7 @@ span.wthree-line-4 {
     width: 260px;
     height: 3px;
     margin: 8px 0;
-    margin-left: 280px;
+    margin-left: 63%;
     background: rgb(242,159,3);
     background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
 }
