@@ -171,17 +171,14 @@ a.navbar-brand span {
 
 .w3ls-btn {
     font-weight: 600;
-    background: #fcff3b;
-    padding: 5px 30px;
-    border-radius: 20px;
-    letter-spacing: 1px;
+    background: rgb(242,159,3);
     color: #000000;
     text-transform: capitalize;
 }
 
 .modal-content {
-    background: #15b915;
-    background: linear-gradient(80deg, #6cd86c, #15b915);
+    background: rgb(242,159,3);
+    background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);
     -ms-background: linear-gradient(80deg, #6cd86c, #15b915);
     -moz-background: linear-gradient(80deg, #6cd86c, #15b915);
     -webkit-background: linear-gradient(80deg, #6cd86c, #15b915);
@@ -342,7 +339,7 @@ span.sub-title {
 #btn_edit
 {
     margin-bottom: 10%;
-    margin-left: 15%;
+    margin-left: 1.5%;
     color: black;
     background: rgb(242,159,3);
     background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100%);

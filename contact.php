@@ -48,6 +48,13 @@ background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100
 
             
         }
+        #we{
+            color:mistyrose;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            font-weight:bold;
+            font-size:27px;
+        }
 
         #j3{
             background-color:rgba(58, 57, 57, 0.900);           
@@ -137,7 +144,7 @@ background: radial-gradient(circle, rgba(242,159,3,1) 2%, rgba(252,70,107,1) 100
             font-size: 50px ;
             font-family: Arial Narrow Bold;
             color:rgba(252,70,107,1);
-            text-shadow: 0 0 10px rgba(252,70,107,1), 0 0 20px rgba(252,70,107,1); ;
+            text-shadow: 0 0 5px rgba(252,70,107,1), 0 0 5px rgba(252,70,107,1); ;
             
         }
         #time{
@@ -272,9 +279,11 @@ font-weight: bolder;
                     <div class="team-effect">
                         <img src="images/shreya.jpeg" alt="img" class="img-fluid">
                     </div>
+                    <br>
                     <!-- team text -->
                     <center><div class="team_wthree mt-3">
-                            <h4 id="we">Shreya Agrawal</h4>                        
+                            <h4 id="we">Shreya Agrawal</h4>
+                                                 
                         <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
                             <li>
                                 <a href="https://www.linkedin.com/in/shreyaagrawal03" target="_blank">
@@ -303,15 +312,18 @@ font-weight: bolder;
                             </li>
                         </ul>
                     </div></center>
+                
                     <!-- //team text -->
                 </div>
                 <div class="col-lg-4 col-sm-6 team-grids">
                     <div class="team-effect">
                         <img src="images/rakzz.jpeg" alt="img" class="img-fluid">
                     </div>
+                    
                     <!-- team text -->
                     <center><div class="team_wthree mt-3">
-                        <h4 id="we">Rakshanda Giri</h4>                        
+                        <h4 id="we">Rakshanda Giri</h4>
+                                            
                         <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
                             <li>
                                 <a href="https://www.linkedin.com/in/rakshanda23" target="_blank">
@@ -346,9 +358,11 @@ font-weight: bolder;
                     <div class="team-effect">
                         <img src="images/shrutika.jpeg" alt="img" class="img-fluid">
                     </div>
+                    <br>
                     <!-- team text -->
                     <center><div class="team_wthree mt-3">
-                            <h4 id="we">Shrutika Mahajan</h4>                        
+                            <h4 id="we">Shrutika Mahajan</h4>
+                                                    
                         <ul class="social-iconsv2 w3layouts_hubinfo pt-3">
                             <li>
                                 <a href="https://www.linkedin.com/in/shrutika-mahajan-433671216/" target="_blank">

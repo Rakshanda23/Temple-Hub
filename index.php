@@ -27,7 +27,7 @@
         rel="stylesheet">
     <!-- //online-fonts -->
    <?php
-  // include("formdetail.php");
+   include("formdetail.php");
    ?>
 <style>
     #image-try{

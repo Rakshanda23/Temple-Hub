@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="right-w3l">
-                            <input type="submit" name="register_button"  style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
+                            <input type="submit" name="register_button"  style="  background: rgb(242,159,3);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="Register">
                             <!-- to do link it with login section id  -->
                         </div>
                     </form>
@@ -121,7 +121,7 @@
                             </div> 
 
                             <!-- havan -->
-                            <label for="additional" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label"></label>
+                            <label for="additional" style="color:darkslategrey;font-size: 20px;font-weight:500" class="col-form-label">Samagri</label>
                             <div class=row>
                             
                             
@@ -133,7 +133,7 @@
                                     <input type="checkbox" id="extra2" value="11 Belfal" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
                                     <span></span>11 Belfal-₹101</label><br>
-                                    <input type="checkbox" id="extra3" value="Sampurnpuja-₹301" name="lang[]" onclick="amt_cal()">
+                                    <input type="checkbox" id="extra3" value="Sampurnpuja" name="lang[]" onclick="amt_cal()">
                                     <label for="brand1" class="text-white" >
                                     <span></span>Sampurnpuja-₹301</label> <br>
                                   
@@ -180,7 +180,7 @@
                                 <!-- total amt  -->
 
                         <div class="right-w3l">
-                            <input type="submit" name="submit_button" style="color:rgb(24, 20, 20);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="PAY NOW">
+                            <input type="submit" name="submit_button" style="  background: rgb(242,159,3);font-size: 20px;font-weight:500" class="form-control bg-theme1" value="PAY NOW">
                         </div>
                         <div class="row sub-w3l my-3">
                             <div class="col sub-w3layouts_hub">
@@ -193,7 +193,7 @@
                             </div>-->
                         </div> 
                         <p class="text-center dont-do text-white">Don't have an account?
-                            <a  data-toggle="modal" data-target="#exampleModal1" class="text-dark" data-dismiss="modal" > 
+                            <a  data-toggle="modal" data-target="#exampleModal1"style="color:black; font-weight:500;" data-dismiss="modal" > 
                                  Register Now</a>
 
                         </p>

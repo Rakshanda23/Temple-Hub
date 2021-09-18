@@ -32,7 +32,7 @@
             font-size: 50px ;
             font-family: Arial Narrow Bold;
             color:rgba(252,70,107,1);
-            text-shadow: 0 0 10px rgba(252,70,107,1), 0 0 10px rgba(252,70,107,1); ;
+            text-shadow: 0 0 5px rgba(252,70,107,1), 0 0 5px rgba(252,70,107,1); ;
     }
     </style>
     </head>

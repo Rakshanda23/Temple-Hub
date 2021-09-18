@@ -41,6 +41,58 @@
 
 ?>
 
+
+
+<style>
+    .container-fluid
+    {
+        /* width: 95%; */
+        /* border-style:double;
+        border-color: black;
+        border-width:8px;
+        border-radius: 20px; */
+        margin-top: 0px;
+        text-align: center;
+        background-image: url(images/back.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:30px 30px 30px 30px;
+        font-size: 48px;
+        font-weight: bolder;
+        /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+    }
+    body{
+        background-color:aliceblue;
+        /* background-color:floralwhite; */
+    }
+    .thumbnail {
+    background:honeydew;
+    border-style: double;
+    border-color: black;
+    border-width:thin;
+}
+#btm_cl{
+    background: hotpink;
+    /* color: black; */
+    font-weight: bold;
+    font-size: small;
+}
+#btm_show{
+    background:cornflowerblue;
+    color:white;
+    font-weight: bold;
+    font-size: small;
+}
+h3{
+    text-align:center;
+    font-size:22px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    </style>
+
 <?php
 include('conn.php');
 
@@ -54,9 +106,13 @@ include('conn.php');
 <!-- end reg table  -->
 
 <body>
-        <?php
-        include('header1.php');
-        ?>
+
+<div class="container-fluid">
+         <!-- While there's <strike>lIfE</strike> {CODE} <br> There's <strike>hOpE</strike> {BUG ;} -->
+         TEMPLE HUB ADMIN PANEL
+        </div>
+
+       
     <!-- inner banner -->
     <section class="inner-banner-w3ls d-flex flex-column justify-content-center align-items-center">
       
@@ -91,7 +147,7 @@ include('conn.php');
    <div class="col-md-8">
         <form action="">
           <div style="color:white" class="table-responsive" >
-          <table style="border:10px;" class="table table-bordered table-hover table-striped">
+          <table style="border:10px; background-color:rgb(0,0,0,0.6)" class="table table-bordered table-hover table-striped">
             <tr class="info">
                 
               <th>SR.NO. </th>
@@ -99,8 +155,8 @@ include('conn.php');
               <th>HAVAN</th>
               <th>SAMAGRI </th>
               <th>CHARITY </th>
-              <th>DATE</th>
-              <th>PRICE </th>
+              <th style="padding-right:10px">DATE</th>
+              <th>AMOUNT </th>
             </tr> 
             <?php
             $counter=0;
@@ -142,12 +198,7 @@ include('conn.php');
 
    
     
-    <!-- //portfolio -->
-    <?php
-
-  include("footer.php");
-  ?>
-
+    <!-- //portfolio ----->
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
