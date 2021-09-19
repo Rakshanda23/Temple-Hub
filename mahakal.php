@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Teens Hub People Category Flat Bootstrap Responsive website Template | About :: w3layouts</title>
+    <title>Temple Hub:Jyotirlinga of Shiva</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Teens Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -389,7 +389,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/4.jpeg" alt="" style="height: 600px; width:1000px;">
+                                <img src="images/mahakal/car/4.jpeg" alt="" style="height: 600px; width:1000px;">
                             </div>
                         </div>
                     </div>
@@ -399,7 +399,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/2.jpg" alt="" style="height: 600px;width:1000px;">                                
+                                <img src="images/mahakal/car/2.jpg" alt="" style="height: 600px;width:1000px;">                                
                             </div>
                         </div>
                     </div>
@@ -408,7 +408,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/3.jpg" alt="" style="height: 600px;width:1000px;" >
+                                <img src="images/mahakal/car/3.jpg" alt="" style="height: 600px;width:1000px;" >
                             </div>
                         </div>
                     </div>
@@ -417,7 +417,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/5.jpg" alt="no img oops " style="height: 600px;width:1000px;">
+                                <img src="images/mahakal/car/5.jpg" alt="no img oops " style="height: 600px;width:1000px;">
                             </div>
                         </div>
                     </div>
@@ -426,7 +426,7 @@ font-weight: bolder;
                     <div class="row">
                         <div class="col-lg-12 testimonials_grid">
                             <div class="testi-text text-center">
-                                <img src="images/ram/car/1.jpg" alt="" style="height: 600px; width:1000px;">
+                                <img src="images/mahakal/car/1.jpg" alt="" style="height: 600px; width:1000px;">
                             </div>
                         </div>
                     </div>

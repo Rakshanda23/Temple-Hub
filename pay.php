@@ -2,7 +2,7 @@
  
  
  <head>
-    <title>Teens Hub People Category Flat Bootstrap Responsive website Template | Contact :: w3layouts</title>
+    <title>Temple Hub:Jyotirlinga of Shiva</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Teens Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
